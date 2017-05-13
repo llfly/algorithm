@@ -45,23 +45,28 @@ var lengthOfLongestSubstring = function(s) {
 */
 
 
+//abasfsdfsafsf
+
+
 var lengthOfLongestSubstring = function(s){
     var i = 0, j = 0,maxLen = 0,obj={},len = s.length;
     while(j < len){
         if(obj[s[j]]){
             maxLen = Math.max(maxLen,j-i);
+            console.log('maxLen',maxLen);
             while(s[i]!=s[j]){
-                obj[s[i]] = false;
-                i++;
+                obj[s[i++]] = false;
             }
             i++;
             j++;
+            console.log('i,j',obj,i,j);
         }else{
-            console.log(obj);
-            obj[s[j]] = true;
-            j++;
+            obj[s[j++]] = true;
+            console.log(obj,j);
         }
     }
     maxLen = Math.max(maxLen,len-i);
+    console.log(maxLen);
     return maxLen;
 };
+lengthOfLongestSubstring("abdefabcabcd");
