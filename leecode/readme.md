@@ -36,7 +36,7 @@ http://oj.leetcode.com/problems/permutation-sequence/
 http://oj.leetcode.com/problems/merge-intervals/
 http://oj.leetcode.com/problems/valid-number/
 http://oj.leetcode.com/problems/climbing-stairs/
-http://oj.leetcode.com/problems/roman-to-integer/
+[13. Roman to Integer](http://oj.leetcode.com/problems/roman-to-integer/)
 http://oj.leetcode.com/problems/integer-to-roman/
 http://oj.leetcode.com/problems/divide-two-integers/
 区间：http://oj.leetcode.com/problems/insert-interval/
@@ -52,8 +52,8 @@ http://oj.leetcode.com/problems/first-missing-positive/
 http://oj.leetcode.com/problems/spiral-matrix/
 http://oj.leetcode.com/problems/spiral-matrix-ii/
 http://oj.leetcode.com/problems/rotate-image/
-遍历技巧：
 
+遍历技巧：
 http://oj.leetcode.com/problems/container-with-most-water/
 [1. Two Sum](http://oj.leetcode.com/problems/two-sum/)
 http://oj.leetcode.com/problems/3sum/
@@ -111,9 +111,12 @@ level 遍历：http://oj.leetcode.com/problems/binary-tree-level-order-traversal
 level 遍历变种：http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/
 level 遍历变种：http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 
+
+位运算
+[136. Single Number](http://oj.leetcode.com/problems/single-number/)
+[137. Single Number II](http://oj.leetcode.com/problems/single-number-ii/)
+
 问题分析/智商/细节：
-http://oj.leetcode.com/problems/single-number/
-http://oj.leetcode.com/problems/single-number-ii/
 http://oj.leetcode.com/problems/candy/   ？
 http://oj.leetcode.com/problems/gas-station/
 
