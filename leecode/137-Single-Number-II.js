@@ -26,7 +26,7 @@ var singleNumber = function (nums) {
 //转成二进制，进行 各位取余？
 
 
-*/
+
 var singleNumber = function (nums) {
     const log = (text,num) => console.log(text,num);
 
@@ -46,7 +46,7 @@ var singleNumber = function (nums) {
     return first;
 
 }
-
+     */
 var test = (a,b) => {
     console.log(a,b);
     a = a ^ b;
@@ -55,15 +55,34 @@ var test = (a,b) => {
     console.log(a,b);
 }
 
+var singleNumber = function (nums) {
+    let first = 0, second = 0;
+    for(let i = 0; i < nums.length; i++){
+        first = (first ^ nums[i]) & ~second;
+        second = (second ^ nums[i]) & ~first;
+    }
+    return first;
+}
 
 //101001101这样的形式，int类型占内存4个字节，也就是32位。那么，如果一个数字在数组中出现了三次，比如18，二进制是10010，所以第一位和第四位上的1，也都各出现了3次。
+
+
 
 //(18,18,18,1)
 
 
-singleNumber([18,18,18,9,9,9,1])
+console.log(singleNumber([18,18,18,9,9,9,1,1,1,6]));
 
 /*
+
+
+
+
+
+
+
+
+
  second = 0 ^ (0 & 18) = 0;
  first  = 0 ^ 18 = 18;
  third  = ~ ( 0 & 18 ) = -1;
