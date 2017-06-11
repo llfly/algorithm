@@ -53,20 +53,16 @@ var lengthOfLongestSubstring = function(s){
     while(j < len){
         if(obj[s[j]]){
             maxLen = Math.max(maxLen,j-i);
-            console.log('maxLen',maxLen);
             while(s[i]!=s[j]){
                 obj[s[i++]] = false;
             }
             i++;
             j++;
-            console.log('i,j',obj,i,j);
         }else{
             obj[s[j++]] = true;
-            console.log(obj,j);
         }
     }
     maxLen = Math.max(maxLen,len-i);
-    console.log(maxLen);
     return maxLen;
 };
 lengthOfLongestSubstring("abdefabcabcd");
