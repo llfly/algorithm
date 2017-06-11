@@ -27,7 +27,7 @@ http://oj.leetcode.com/problems/string-to-integer-atoi/  (分析，控制语句�
 简单数学：
 [118. Pascal's Triangle](http://oj.leetcode.com/problems/pascals-triangle/)
 [119. Pascal's Triangle II](http://oj.leetcode.com/problems/pascals-triangle-ii/)
-http://oj.leetcode.com/problems/powx-n/
+[50. Pow(x, n)](http://oj.leetcode.com/problems/powx-n/)
 http://oj.leetcode.com/problems/reverse-integer/
 http://oj.leetcode.com/problems/plus-one/
 http://oj.leetcode.com/problems/unique-paths/
