@@ -39,7 +39,7 @@ const subsets = (list) => {
 const uniqueSubsetHelper = (result, path, list, pos) => {
     result.push(path.slice());
     for (let i = pos; i < list.length; i++) {
-        if (i > 0 && i != pos && list[i] === list[i - 1]) {
+        if (i != pos && list[i] === list[i - 1]) {
             continue;
         }
         path.push(list[i]);
