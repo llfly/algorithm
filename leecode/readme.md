@@ -195,7 +195,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 ## 数组和链表（Array&List）：插入、删除、旋转等操作。
     - [x] [27. Remove Element](http://oj.leetcode.com/problems/remove-element/)
     - [x] [88. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
-    - [ ] [41. First Missing Positive](http://oj.leetcode.com/problems/first-missing-positive/)
+    - [x] [41. First Missing Positive](http://oj.leetcode.com/problems/first-missing-positive/)
 ## 栈和队列（Stack&Queue）：栈的典型应用。
 ## 树（Tree）：构建、验证、遍历、转换。
 ## 字符串（String）：转换、搜索、运算。
