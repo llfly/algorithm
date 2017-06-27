@@ -190,26 +190,26 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 
 
 
-# 基础结构（Fundamentals）
+## 基础结构（Fundamentals）
 
-## 数组和链表（Array&List）：插入、删除、旋转等操作。
-    - [x] [27. Remove Element](http://oj.leetcode.com/problems/remove-element/)
-    - [x] [88. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
-    - [x] [41. First Missing Positive](http://oj.leetcode.com/problems/first-missing-positive/)
-    - [x] [54. Spiral Matrix](http://oj.leetcode.com/problems/spiral-matrix/)
-## 栈和队列（Stack&Queue）：栈的典型应用。
-## 树（Tree）：构建、验证、遍历、转换。
-## 字符串（String）：转换、搜索、运算。
+### 数组和链表（Array&List）：插入、删除、旋转等操作。
+- [x] [27. Remove Element](http://oj.leetcode.com/problems/remove-element/)
+- [x] [88. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
+- [x] [41. First Missing Positive](http://oj.leetcode.com/problems/first-missing-positive/)
+- [x] [54. Spiral Matrix](http://oj.leetcode.com/problems/spiral-matrix/)
+### 栈和队列（Stack&Queue）：栈的典型应用。
+### 树（Tree）：构建、验证、遍历、转换。
+### 字符串（String）：转换、搜索、运算。
 
-# 积木块（Building Block）
-## 哈希表（Hashing）
-## 分治（Divide-and-Conquer）
-## 排序（Sorting）
-## 二分查找（Binary Search）
+## 积木块（Building Block）
+### 哈希表（Hashing）
+### 分治（Divide-and-Conquer）
+### 排序（Sorting）
+### 二分查找（Binary Search）
 
-# 高级算法（Advanced）：
+## 高级算法（Advanced）
 
-## 组合算法（Combinatorial Algorithm）：
+### 组合算法（Combinatorial Algorithm）
 - 回溯（Backtracking）
 - 组合（Combination）
 - 子集（Subset）
@@ -217,27 +217,29 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - 排列（Permutation）
 - 分区（Partition）
 
-## 贪心算法（Greedy Algorithm）：贪心的典型应用。
+### 贪心算法（Greedy Algorithm）：贪心的典型应用。
 
-## 动态规划（Dynamic Programming）：广泛应用DP求最优解。
+### 动态规划（Dynamic Programming）：广泛应用DP求最优解。
 - 01 背包
 - 完全背包
 
-# 其他杂项（Misc）：
+## 其他杂项（Misc）：
 
-## 简单数学（Math）
-    - [x] [118. Pascal's Triangle](http://oj.leetcode.com/problems/pascals-triangle/)
-    - [ ] [119. Pascal's Triangle II](http://oj.leetcode.com/problems/pascals-triangle-ii/)
-    - [ ] [50. Pow(x, n)](http://oj.leetcode.com/problems/powx-n/)
-    - [ ] [13. Roman to Integer](http://oj.leetcode.com/problems/roman-to-integer/)
+### 简单数学（Math）
 
-## 大数字
+- [x] [118. Pascal's Triangle](http://oj.leetcode.com/problems/pascals-triangle/)
+- [ ] [119. Pascal's Triangle II](http://oj.leetcode.com/problems/pascals-triangle-ii/)
+- [ ] [50. Pow(x, n)](http://oj.leetcode.com/problems/powx-n/)
+- [ ] [13. Roman to Integer](http://oj.leetcode.com/problems/roman-to-integer/)
 
-## 位运算（Bit Manipulation）
-    - [x] [136. Single Number](http://oj.leetcode.com/problems/single-number/)
-    - [ ] [137. Single Number II](http://oj.leetcode.com/problems/single-number-ii/)
+### 大数字
 
-## 矩阵（Matrix）
+### 位运算（Bit Manipulation）
+
+- [x] [136. Single Number](http://oj.leetcode.com/problems/single-number/)
+- [ ] [137. Single Number II](http://oj.leetcode.com/problems/single-number-ii/)
+
+### 矩阵（Matrix）
 
 
-## 流程控制
+### 流程控制
