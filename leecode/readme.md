@@ -45,13 +45,6 @@ http://oj.leetcode.com/problems/divide-two-integers/
 http://oj.leetcode.com/problems/add-binary/
 http://oj.leetcode.com/problems/add-two-numbers/
 
-数组：
-
-
-
-
-http://oj.leetcode.com/problems/rotate-image/
-
 遍历技巧：
 http://oj.leetcode.com/problems/container-with-most-water/
 [1. Two Sum](http://oj.leetcode.com/problems/two-sum/)
@@ -192,12 +185,15 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 
 ## 基础结构（Fundamentals）
 
-### 数组和链表（Array&List）：插入、删除、旋转等操作。
+### 数组(Array)
 - [x] [27. Remove Element](http://oj.leetcode.com/problems/remove-element/)
-- [x] [88. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
 - [x] [41. First Missing Positive](http://oj.leetcode.com/problems/first-missing-positive/)
+- [x] [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [x] [54. Spiral Matrix](http://oj.leetcode.com/problems/spiral-matrix/)
 - [x] [59. Spiral Matrix II](http://oj.leetcode.com/problems/spiral-matrix-ii/)
+- [x] [88. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
+### 链表(List)
+
 ### 栈和队列（Stack&Queue）：栈的典型应用。
 ### 树（Tree）：构建、验证、遍历、转换。
 ### 字符串（String）：转换、搜索、运算。
