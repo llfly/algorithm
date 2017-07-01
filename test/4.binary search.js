@@ -58,3 +58,93 @@ console.log(binarySearch([1, 1, 2, 3, 3, 4, 5, 6, 7, 8, 10], 3))
 // last end of target
 // search 2D martix
 // search 2D martix II Quadrate Search 四分
+// first bad version 
+// find peak element  [1,2,1,3,4,5,7,6]
+
+
+
+/**
+ * first or last position of   ==> binary search
+ * O(n) ==> O(logn)
+ * 
+ */
+
+
+// Search in Rotated Sorted Array https://leetcode.com/problems/search-in-rotated-sorted-array/
+// Search in Rotated Sorted Array II https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+// Find Minimum in Rotated Soted Array
+// Find Minimum in Rotated Soted Array II
+// Merge sorted Array
+// Merge sorted Array II
+
+
+
+const search = (A, target) => {
+    let start = 0, end = A.length - 1, mid;
+
+    while (start + 1 < end) {
+        mid = start + (end - start) / 2;
+        if (A[mid] == target) {
+            return mid;
+        }
+
+        if (A[start] < A[mid]) {
+            if (A[start] <= target && target <= A[mid]) {
+                end = mid;
+            } else {
+                start = mid;
+            }
+        } else {
+            if (A[mid] <= target && target <= A[end]) {
+                start = mid;
+            } else {
+                end = mid;
+            }
+        }
+    }//while
+
+    if (A[start] == target) {
+        return start;
+    }
+    if (A[end] == target) {
+        return end;
+    }
+
+    return -1;
+}
+
+// 基于比较的排序，最快是nlogn
+
+
+// Median of Two Sorted Arrays https://leetcode.com/problems/median-of-two-sorted-arrays/
+/**
+ * (n + m) / 2
+ * O(log(n + m))
+ * 
+ * find kth element in two sorted array
+ * O(log k)
+ * => k
+ * => k/2
+ * ...
+ * log(k)
+ * 
+ * 
+ * O(1) A数组和B数组中，删掉k/2个前k个数量的数
+ * => 挪动A数组或者B数组的起始位置下标
+ * => 要么A删掉前k/2个数，要么B删掉前k/2个数
+ * => 需要比较A[k/2]和B[k/2]来决定删谁
+ * if(A[k/2]<B[k/2]){
+ * // A的[k/2]都在C中，即A[k/2]之前不包含第k个数，可以都扔掉
+ * }
+ * k - k/2
+ */
+
+
+// Recover Sorted Array
+// [4,5,1,2,3] => [1,2,3,4,5] O(1) O(n)
+// 三步反转
+// [4,5] [1,2,3]
+// [5,4] [3,2,1]
+// [1,2,3,4,5]
+// Rotate String
+// Reverse Words in a string
