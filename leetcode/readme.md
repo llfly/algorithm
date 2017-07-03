@@ -197,11 +197,10 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 ### 二分查找（Binary Search）
 - [x] [74. Search-a-2d-matrix](http://oj.leetcode.com/problems/search-a-2d-matrix/)
 - [x] [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
-- [ ] [ ](http://oj.leetcode.com/problems/sqrtx/)
-- [ ] [ ](http://oj.leetcode.com/problems/search-insert-position/)
+- [x] [35. Search Insert Position](http://oj.leetcode.com/problems/search-insert-position/)
 - [ ] [ ](http://oj.leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [ ](http://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)
-
+- [ ] [ ](http://oj.leetcode.com/problems/sqrtx/)
 ## 高级算法（Advanced）
 
 ### 组合算法（Combinatorial Algorithm）
