@@ -19,7 +19,6 @@ http://oj.leetcode.com/problems/longest-common-prefix/
 http://oj.leetcode.com/problems/string-to-integer-atoi/  (分析，控制语句）
 
 排序 & 查找：
-二分查找进阶：http://oj.leetcode.com/problems/search-for-a-range/
 二分查找应用：http://oj.leetcode.com/problems/sqrtx/
 二分查找应用：http://oj.leetcode.com/problems/search-insert-position/
 二分查找变种：http://oj.leetcode.com/problems/search-in-rotated-sorted-array/
@@ -203,6 +202,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 ### 排序（Sorting）& 查找（Searching)
 ### 二分查找（Binary Search）
 - [x] [74. Search-a-2d-matrix](http://oj.leetcode.com/problems/search-a-2d-matrix/)
+- [x] [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
 
 ## 高级算法（Advanced）
 
