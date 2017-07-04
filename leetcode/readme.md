@@ -199,7 +199,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - [x] [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
 - [x] [35. Search Insert Position](http://oj.leetcode.com/problems/search-insert-position/)
-- [ ] [33. Search in Rotated Sorted Array](http://oj.leetcode.com/problems/search-in-rotated-sorted-array/)
+- [x] [33. Search in Rotated Sorted Array](http://oj.leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [81. Search in Rotated Sorted Array II](http://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 - [ ] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
