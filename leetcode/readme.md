@@ -196,7 +196,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 ### 排序（Sorting）& 查找（Searching)
 ### 二分查找（Binary Search）
 - [x] [74. Search-a-2d-matrix](http://oj.leetcode.com/problems/search-a-2d-matrix/)
-- [ ] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+- [x] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - [x] [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
 - [x] [35. Search Insert Position](http://oj.leetcode.com/problems/search-insert-position/)
 - [ ] [33. Search in Rotated Sorted Array](http://oj.leetcode.com/problems/search-in-rotated-sorted-array/)
