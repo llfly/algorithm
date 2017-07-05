@@ -200,7 +200,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [35. Search Insert Position](http://oj.leetcode.com/problems/search-insert-position/)
 - [x] [33. Search in Rotated Sorted Array](http://oj.leetcode.com/problems/search-in-rotated-sorted-array/)
 - [x] [81. Search in Rotated Sorted Array II](http://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)
-- [ ] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [x] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 - [ ] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [ ] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)

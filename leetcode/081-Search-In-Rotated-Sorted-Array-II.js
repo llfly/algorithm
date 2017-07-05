@@ -33,24 +33,24 @@ var search = function (nums, target) {
         let mid = start + Math.floor((end - start) / 2);
         if (nums[mid] === target) {
             return true;
-        } else if (nums[mid] > nums[end]){
-            if(nums[mid] > target && nums[start] <= target){
+        } else if (nums[mid] > nums[end]) {
+            if (nums[mid] > target && nums[start] <= target) {
                 end = mid;
-            }else{
+            } else {
                 start = mid;
             }
-        } else if(nums[mid] < nums[end]){
-           if(nums[mid] < target && nums[end] >= target){
-               start = mid;
-           }else{
-               end = mid;
-           }
-        }else{
+        } else if (nums[mid] < nums[end]) {
+            if (nums[mid] < target && nums[end] >= target) {
+                start = mid;
+            } else {
+                end = mid;
+            }
+        } else {
             end--;
         }
     }
 
-   if (nums[start] === target || nums[end] === target) {
+    if (nums[start] === target || nums[end] === target) {
         return true;
     }
     return false;
