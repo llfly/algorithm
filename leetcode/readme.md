@@ -203,7 +203,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 - [ ] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
-- [ ] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+- [x] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
 - [ ] [4. Median of Two Sorted Arrays](http://oj.leetcode.com/problems/median-of-two-sorted-arrays/)
 - [ ] [ ](http://oj.leetcode.com/problems/sqrtx/)
 ## 高级算法（Advanced）
