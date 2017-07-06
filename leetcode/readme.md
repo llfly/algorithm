@@ -204,8 +204,8 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 - [x] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [x] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+- [x] [69. Sqrt(x)](http://oj.leetcode.com/problems/sqrtx/)
 - [ ] [4. Median of Two Sorted Arrays](http://oj.leetcode.com/problems/median-of-two-sorted-arrays/)
-- [ ] [ ](http://oj.leetcode.com/problems/sqrtx/)
 ## 高级算法（Advanced）
 
 ### 组合算法（Combinatorial Algorithm）

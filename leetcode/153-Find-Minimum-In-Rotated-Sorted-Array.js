@@ -45,8 +45,7 @@ var findMin = function(nums) {
 
 
 console.log(findMin([4,5,6,7,0,1,2,3]));
-console.log(findMin([4,5,5,6,7,0,1,2,3]));
-console.log(findMin([5,5,5,5,1,2,3,4]));
-
+console.log(findMin([5,1,2,3,4]));
+//console.log(findMin([3,3,1,3]))
 
 //[4 5 6 7 0 1 2 3]
