@@ -24,14 +24,14 @@ You are given an API bool isBadVersion(version) which will return whether versio
  * @param {function} isBadVersion()
  * @return {function}
  */
-var solution = function(isBadVersion) {
+var solution = function (isBadVersion) {
     /**
      * @param {integer} n Total versions
      * @return {integer} The first bad version
      */
-    return function(n) {
-       
-        if(n === 0){
+    return function (n) {
+
+        if (n === 0) {
             return n;
         }
 
@@ -41,18 +41,18 @@ var solution = function(isBadVersion) {
         while (start + 1 < end) {
             let mid = start + Math.floor((end - start) / 2);
 
-            if (isBadVersion(mid)){
+            if (isBadVersion(mid)) {
                 end = mid;
             } else {
                 start = mid;
             }
         }
 
-        if(isBadVersion(start)){
+        if (isBadVersion(start)) {
             return start;
         }
 
-        if(isBadVersion(end)){
+        if (isBadVersion(end)) {
             return end;
         }
 
@@ -62,11 +62,11 @@ var solution = function(isBadVersion) {
 
 
 
-function isBadVersion(num){
+function isBadVersion(num) {
     let testArr = [2];
-    if(~testArr.indexOf(num)){
+    if (~testArr.indexOf(num)) {
         return true;
-    }else{
+    } else {
         return false;
     }
 }
