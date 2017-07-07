@@ -194,6 +194,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 ### 分治（Divide-and-Conquer）
 ### 排序（Sorting）& 查找（Searching)
 ### 二分查找（Binary Search）
+- [x] [69. Sqrt(x)](http://oj.leetcode.com/problems/sqrtx/)
 - [x] [74. Search-a-2d-matrix](http://oj.leetcode.com/problems/search-a-2d-matrix/)
 - [x] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - [x] [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
@@ -204,7 +205,6 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 - [x] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [x] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
-- [x] [69. Sqrt(x)](http://oj.leetcode.com/problems/sqrtx/)
 - [ ] [4. Median of Two Sorted Arrays](http://oj.leetcode.com/problems/median-of-two-sorted-arrays/)
 ## 高级算法（Advanced）
 
@@ -230,6 +230,11 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [ ] [119. Pascal's Triangle II](http://oj.leetcode.com/problems/pascals-triangle-ii/)
 - [ ] [50. Pow(x, n)](http://oj.leetcode.com/problems/powx-n/)
 - [ ] [13. Roman to Integer](http://oj.leetcode.com/problems/roman-to-integer/)
+
+### 翻转
+- [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+- [x] [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
+- [ ] [186.Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
 
 ### 大数字
 
