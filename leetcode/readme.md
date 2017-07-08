@@ -166,7 +166,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 #### 二叉树
 ##### 遍历(preorder / inorder / postorder)
 - [x] [144. Binary Tree Preorder Traversal](http://oj.leetcode.com/problems/binary-tree-preorder-traversal/)
-- [ ] [ ](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)
+- [x] [94. Binary Tree Inorder Traversal](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-postorder-traversal/)
 
 - [ ] [100. Same Tree](http://oj.leetcode.com/problems/same-tree/)
