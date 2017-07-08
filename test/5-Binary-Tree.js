@@ -23,6 +23,7 @@ function Node(val,left,right) {
 // Binart Tree Preorder Traversal
 // preorder 递归／非递归
 
+// preorder
 
 // 1. Traversal
 const preorderTraversal = function (root) {
@@ -84,7 +85,7 @@ const preorder = function (root) {
 }
 
 
-console.log(preorderTraversal({
+let root = {
     val:1,
     left:{
         val:2,
@@ -95,8 +96,28 @@ console.log(preorderTraversal({
             right:null
         }
     }
-}));
+};
+
+console.log(preorderTraversal(root));
+
+
+
+console.log(preorderDivide(root))
+
+
+console.log(preorder(root));
+
+
+
+// Divide & Conquer Algorithm
+
+// - Merge Sort 最坏情况nlogn 最好nlogn 合并操作需要使用额外空间 O(n)  稳定排序
+// - Quick Sort 最坏情况n^2 平均nlogn     不需要额外空间O(1)  不稳定排序
+// 稳定性 稳定排序 1 2(1) 2(2)  
+// ==>  1 2(1) 2(2) 稳定排序
+// ==>  1 2(2) 2(2) 不稳定排序
 
 
 
 
+// 
