@@ -1,29 +1,32 @@
-// Binary Tree
-// 基本操作
-// 分治法
-// 遍历 深度／广度遍历
+/*
+
+Given a binary tree, return the preorder traversal of its nodes' values.
+
+For example:
+Given binary tree {1,#,2,3},
+   1
+    \
+     2
+    /
+   3
+return [1,2,3].
+
+Note: Recursive solution is trivial, could you do it iteratively?
+
+*/
 
 
-// 1. Binary Tree DFS Traversal
-// - preorder / inorder / postorder
-// - Divide & Conquer
-// - DFS
-// 2. Binary Tree BFS Traversal
-// 3. Binary Search Tree
-
-
-function Node(val, left, right) {
-    this.val = val;
-    this.left = left;
-    this.right = right;
-}
-
-
-
-// Binart Tree Preorder Traversal
-// preorder 递归／非递归
-
-// preorder
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number[]}
+ */
 
 // 1. Traversal
 const preorderTraversal = function (root) {
@@ -85,6 +88,7 @@ const preorder = function (root) {
 }
 
 
+
 let root = {
     val: 1,
     left: {
@@ -98,47 +102,7 @@ let root = {
     }
 };
 
+
 console.log(preorderTraversal(root));
 console.log(preorderDivide(root))
 console.log(preorder(root));
-
-
-
-// Divide & Conquer Algorithm
-
-// - Merge Sort nlogn(每一层都是O(n),一共logn层) 合并操作需要使用额外空间 O(n)  稳定排序
-// - Quick Sort 最坏情况n^2 平均nlogn(每次选出的值都是最小或最大，每次都是O(n)，因此最坏是O(n^2)，均摊复杂度)     不需要额外空间O(1)  不稳定排序
-// 稳定性 稳定排序 1 2(1) 2(2)  
-// ==>  1 2(1) 2(2) 稳定排序
-// ==>  1 2(2) 2(2) 不稳定排序
-
-
-
-
-// Maximum Depth of Binary Tree
-const maxDepth = (root) => {
-    if (root == null) {
-        return 0;
-    }
-
-    let left = maxDepth(root.left);
-    let right = maxDepth(root.right);
-    return Math.max(left, right) + 1;
-}
-
-// const findMaxDepth = (root, curDepth) => {
-//     if (root == null) {
-//         return 0;
-//     }
-
-//     if(curDepth > maxDepth) {
-//         maxDepth = curDepth;
-//     }
-
-//     findMaxDepth(root.left, curDepth + 1);
-//     findMaxDepth(root.right,curDepth + 1);
-
-// }
-
-
-// Balanced Binary Tree

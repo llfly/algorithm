@@ -72,30 +72,6 @@ Merge 多链表：http://oj.leetcode.com/problems/merge-k-sorted-lists/
 http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/
 http://oj.leetcode.com/problems/reverse-linked-list-ii/
 
-二叉树遍历：递归 & 非递归
-http://oj.leetcode.com/problems/same-tree/
-前序：http://oj.leetcode.com/problems/binary-tree-preorder-traversal/
-中序：http://oj.leetcode.com/problems/binary-tree-inorder-traversal/
-后序：http://oj.leetcode.com/problems/binary-tree-postorder-traversal/
-遍历变种：http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/
-遍历变种：http://oj.leetcode.com/problems/path-sum/
-遍历变种：http://oj.leetcode.com/problems/path-sum-ii/
-遍历变种：http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/
-遍历变种：http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/
-重建二叉树：http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
-重建二叉树：http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
-层次遍历变种：http://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-遍历变种：http://oj.leetcode.com/problems/symmetric-tree/
-遍历应用：http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/
-遍历应用：http://oj.leetcode.com/problems/balanced-binary-tree/
-遍历应用：http://oj.leetcode.com/problems/recover-binary-search-tree/
-遍历应用：http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/
-level遍历：http://oj.leetcode.com/problems/binary-tree-level-order-traversal/
-level 遍历：http://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/
-level 遍历变种：http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/
-level 遍历变种：http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
-
-
 问题分析/智商/细节：
 http://oj.leetcode.com/problems/candy/   ？
 http://oj.leetcode.com/problems/gas-station/
@@ -187,6 +163,31 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 
 ### 栈和队列（Stack&Queue）：栈的典型应用。
 ### 树（Tree）：构建、验证、遍历、转换。
+#### 二叉树
+##### 遍历(preorder / inorder / postorder)
+- [x] [144. Binary Tree Preorder Traversal](http://oj.leetcode.com/problems/binary-tree-preorder-traversal/)
+- [ ] [ ](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)
+- [ ] [ ](http://oj.leetcode.com/problems/binary-tree-postorder-traversal/)
+
+- [ ] [100. Same Tree](http://oj.leetcode.com/problems/same-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
+- [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
+- [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
+- [ ] [ ](http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+- [ ] [ ](http://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+- [ ] [ ](http://oj.leetcode.com/problems/symmetric-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)
+- [ ] [ ](http://oj.leetcode.com/problems/balanced-binary-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+- [ ] [ ](http://oj.leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] [ ](http://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+- [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+- [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+
 ### 字符串（String）：转换、搜索、运算。
 
 ## 积木块（Building Block）
