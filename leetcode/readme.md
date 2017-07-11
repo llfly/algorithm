@@ -164,15 +164,20 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 ### 栈和队列（Stack&Queue）：栈的典型应用。
 ### 树（Tree）：构建、验证、遍历、转换。
 #### 二叉树
-##### 遍历(preorder / inorder / postorder)
+##### BFS 遍历(preorder / inorder / postorder) ／ 分治
 - [x] [144. Binary Tree Preorder Traversal](http://oj.leetcode.com/problems/binary-tree-preorder-traversal/)
 - [x] [94. Binary Tree Inorder Traversal](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)
 - [x] [145. Binary Tree Postorder Traversal](http://oj.leetcode.com/problems/binary-tree-postorder-traversal/)
+- [x] [104. Maximum Depth of Binary Tree](http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)
+##### DFS
+##### Binary Search Tree
+
+##### 待分类
 - [ ] [100. Same Tree](http://oj.leetcode.com/problems/same-tree/)
 - [ ] [ ](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
-- [ ] [ ](http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)
+
 - [ ] [ ](http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)
 - [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
