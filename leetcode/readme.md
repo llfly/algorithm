@@ -118,13 +118,9 @@ http://oj.leetcode.com/problems/maximal-rectangle/
 http://oj.leetcode.com/problems/longest-substring-without-repeating-characters/
 
 分治 & 递归：
-http://oj.leetcode.com/problems/unique-binary-search-trees-ii/
 http://oj.leetcode.com/problems/restore-ip-addresses/  （时间复杂度有限，递归满足）
 http://oj.leetcode.com/problems/permutations/
 http://oj.leetcode.com/problems/permutations-ii/
-http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
-http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
-http://oj.leetcode.com/problems/validate-binary-search-tree/
 
 字符串：
 http://oj.leetcode.com/problems/count-and-say/
@@ -164,7 +160,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 ### 栈和队列（Stack&Queue）：栈的典型应用。
 ### 树（Tree）：构建、验证、遍历、转换。
 #### Binary Tree
-##### BFS (preorder / inorder / postorder) ／ Divide & Conquer
+##### BFS (preorder / inorder / postorder) || Divide & Conquer
 - [x] [144. Binary Tree Preorder Traversal](http://oj.leetcode.com/problems/binary-tree-preorder-traversal/)
 - [x] [94. Binary Tree Inorder Traversal](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)
 - [x] [145. Binary Tree Postorder Traversal](http://oj.leetcode.com/problems/binary-tree-postorder-traversal/)
@@ -176,7 +172,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 ##### Binary Search Tree
 
 ##### ...
-
+- [ ] ] ](http://oj.leetcode.com/problems/unique-binary-search-trees-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
@@ -191,6 +187,9 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+- [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/validate-binary-search-tree/)
 
 ### 字符串（String）：转换、搜索、运算。
 
