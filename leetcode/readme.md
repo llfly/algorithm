@@ -169,6 +169,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [94. Binary Tree Inorder Traversal](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)
 - [x] [145. Binary Tree Postorder Traversal](http://oj.leetcode.com/problems/binary-tree-postorder-traversal/)
 - [x] [104. Maximum Depth of Binary Tree](http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [x] [111. Minimum Depth of Binary Tree](http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)
 ##### DFS
 ##### Binary Search Tree
 
@@ -178,7 +179,6 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
 
-- [ ] [ ](http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)
 - [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
