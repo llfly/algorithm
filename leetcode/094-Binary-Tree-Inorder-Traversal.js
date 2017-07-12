@@ -27,19 +27,19 @@ Note: Recursive solution is trivial, could you do it iteratively?
  * @param {TreeNode} root
  * @return {number[]}
  */
-var inorderTraversal = function(root) {
+var inorderTraversal = function (root) {
     let result = [];
-    if(root == null){
+    if (root == null) {
         return result;
     }
-    
+
     let left = inorderTraversal(root.left);
     let right = inorderTraversal(root.right);
-    
-    
-    Array.prototype.push.apply(result,left);
+
+
+    Array.prototype.push.apply(result, left);
     result.push(root.val);
-    Array.prototype.push.apply(result,right);
+    Array.prototype.push.apply(result, right);
 
     return result;
 };

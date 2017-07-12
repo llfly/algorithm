@@ -34,7 +34,7 @@ var merge = function (nums1, m, nums2, n) {
 }
 
 
-var nums1 = [2,0];
+var nums1 = [2, 0];
 var nums2 = [1];
 merge(nums1, 1, nums2, 1);
 

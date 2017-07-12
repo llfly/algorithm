@@ -17,14 +17,14 @@ For this problem, a height-balanced binary tree is defined as a binary tree in w
  */
 
 const depth = (root) => {
-    if(root == null){
+    if (root == null) {
         return 0;
     }
-    return Math.max(depth(root.left),depth(root.right)) + 1;
+    return Math.max(depth(root.left), depth(root.right)) + 1;
 }
 
-var isBalanced = function(root) {
-    if(root == null){
+var isBalanced = function (root) {
+    if (root == null) {
         return true;
     }
 

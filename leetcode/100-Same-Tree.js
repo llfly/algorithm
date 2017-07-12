@@ -16,42 +16,42 @@ Two binary trees are considered equal if they are structurally identical and the
  * @param {TreeNode} q
  * @return {boolean}
  */
-var isSameTree = function(p, q) {
+var isSameTree = function (p, q) {
 
-    if(p === null && q === null){
+    if (p === null && q === null) {
         return true;
     }
 
-    if(p == null || q == null){
+    if (p == null || q == null) {
         return false;
     }
-    if(p.val == q.val)
+    if (p.val == q.val)
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     return false;
 };
 
-[10,5,15]
-[10,5,null,null,15]
+[10, 5, 15]
+[10, 5, null, null, 15]
 
 
 let p = {
-    val:10,
-    left:{
-        val:5
+    val: 10,
+    left: {
+        val: 5
     },
-    right:{
-        val:15
+    right: {
+        val: 15
     }
 }
 
 let q = {
-    val:10,
-    left:{
-        val:5,
-        left:null,
-        right:15
+    val: 10,
+    left: {
+        val: 5,
+        left: null,
+        right: 15
     },
-    right:null
+    right: null
 }
 
-console.log(isSameTree(p,q));
+console.log(isSameTree(p, q));

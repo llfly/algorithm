@@ -15,15 +15,15 @@ The minimum depth is the number of nodes along the shortest path from the root n
  * @param {TreeNode} root
  * @return {number}
  */
-var minDepth = function(root) {
-    if(root == null){
+var minDepth = function (root) {
+    if (root == null) {
         return 0;
     }
 
     let left = minDepth(root.left);
     let right = minDepth(root.right);
-    
-    return (left == 0 || right == 0) ? left + right + 1: Math.min(left,right) + 1;
+
+    return (left == 0 || right == 0) ? left + right + 1 : Math.min(left, right) + 1;
 };
 
 
@@ -64,13 +64,13 @@ let root = {
 
 
 let test1 = {
-    val:1,
-    left:{
-        val:2,
-        left:null,
-        right:null
+    val: 1,
+    left: {
+        val: 2,
+        left: null,
+        right: null
     },
-    right:null
+    right: null
 }
 
 console.log(minDepth(root));

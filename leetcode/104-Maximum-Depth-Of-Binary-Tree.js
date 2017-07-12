@@ -16,8 +16,8 @@ The maximum depth is the number of nodes along the longest path from the root no
  * @param {TreeNode} root
  * @return {number}
  */
-var maxDepth = function(root) {
-    if (root == null){
+var maxDepth = function (root) {
+    if (root == null) {
         return 0;
     }
 

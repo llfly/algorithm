@@ -169,7 +169,9 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [100. Same Tree](http://oj.leetcode.com/problems/same-tree/)
 - [x] [101. Symmetric Tree](http://oj.leetcode.com/problems/symmetric-tree/)
 - [x] [110. Balanced Binary Tree](http://oj.leetcode.com/problems/balanced-binary-tree/)
+
 ##### DFS
+- [x] [102. Binary Tree Level Order Traversal](http://oj.leetcode.com/problems/binary-tree-level-order-traversal/)
 ##### Binary Search Tree
 
 ##### ...
@@ -184,7 +186,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 
 - [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
 - [ ] [ ](http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)
-- [ ] [ ](http://oj.leetcode.com/problems/binary-tree-level-order-traversal/)
+
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
