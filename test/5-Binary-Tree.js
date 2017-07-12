@@ -162,6 +162,8 @@ const maxDepth = (root) => {
 
 // Balanced Binary Tree
 // root.left is balanced && root.right is balanced && depth(root.left) - depth(root.right) <= 1
+
+
 // Binary Tree Maximum Path Sum
 // 1. left max path
 // 2. right max path
