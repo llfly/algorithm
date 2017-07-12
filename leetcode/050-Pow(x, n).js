@@ -10,7 +10,7 @@
  */
 var myPow = function (x, n) {
     let m = 1;
-    
+
     return m;
 };
 

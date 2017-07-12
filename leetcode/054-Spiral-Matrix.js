@@ -43,7 +43,7 @@ var spiralOrder = function (matrix) {
         colEnd--;
 
         //left
-        if(rowBegin < rowEnd){
+        if (rowBegin < rowEnd) {
             for (let i = colEnd - 1; i >= colBegin; i--) {
                 res.push(matrix[rowEnd - 1][i]);
             }
@@ -51,8 +51,8 @@ var spiralOrder = function (matrix) {
         }
 
         //up
-        if(colBegin < colEnd){
-            for(let i = rowEnd -1; i >= rowBegin;i--){
+        if (colBegin < colEnd) {
+            for (let i = rowEnd - 1; i >= rowBegin; i--) {
                 res.push(matrix[i][colBegin]);
             }
             colBegin++;
@@ -62,12 +62,12 @@ var spiralOrder = function (matrix) {
     return res;
 };
 
-console.log(spiralOrder( [
-    [ 1, 2, 3 ],
-    [ 4, 5, 6 ],
-    [ 7, 8, 9 ]
+console.log(spiralOrder([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
 ]));
-console.log(spiralOrder([[2,3]]));
+console.log(spiralOrder([[2, 3]]));
 console.log(spiralOrder([
     [3],
     [6],

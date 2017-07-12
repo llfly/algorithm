@@ -23,7 +23,7 @@
  */
 
 const combineHelper = (result, sum, list, pos, k) => {
-    if(sum.length == k){
+    if (sum.length == k) {
         result.push(sum.slice());
     }
 
@@ -50,4 +50,4 @@ var combine = function (n, k) {
 
 
 
-console.log(combine(4,1));
+console.log(combine(4, 1));

@@ -30,7 +30,7 @@ var generateMatrix = function (n) {
     let colEnd = n;
     let num = 1;
 
-    for(let i = 0; i < n; i++){
+    for (let i = 0; i < n; i++) {
         arr.push([]);
     }
 

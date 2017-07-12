@@ -23,6 +23,6 @@ Given n = 3, your program should return all 5 unique BST's shown below.
  * @param {number} n
  * @return {TreeNode[]}
  */
-var generateTrees = function(n) {
-    
+var generateTrees = function (n) {
+
 };
