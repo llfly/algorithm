@@ -169,6 +169,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [100. Same Tree](http://oj.leetcode.com/problems/same-tree/)
 - [x] [101. Symmetric Tree](http://oj.leetcode.com/problems/symmetric-tree/)
 - [x] [110. Balanced Binary Tree](http://oj.leetcode.com/problems/balanced-binary-tree/)
+- [x] [98. Validate Binary Search Tree](http://oj.leetcode.com/problems/validate-binary-search-tree/)
 
 ##### DFS
 - [x] [102. Binary Tree Level Order Traversal](http://oj.leetcode.com/problems/binary-tree-level-order-traversal/)
@@ -190,7 +191,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
-- [ ] [ ](http://oj.leetcode.com/problems/validate-binary-search-tree/)
+
 
 ### 字符串（String）：转换、搜索、运算。
 
