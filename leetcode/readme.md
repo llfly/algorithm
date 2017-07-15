@@ -3,9 +3,7 @@
 //https://github.com/pezy/LeetCode
 
 利用堆栈：
-http://oj.leetcode.com/problems/evaluate-reverse-polish-notation/
 http://oj.leetcode.com/problems/longest-valid-parentheses/ （也可以用一维数组，贪心）
-http://oj.leetcode.com/problems/valid-parentheses/
 http://oj.leetcode.com/problems/largest-rectangle-in-histogram/
 特别注意细节：http://oj.leetcode.com/problems/trapping-rain-water/
 
@@ -157,7 +155,9 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [88. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
 ### 链表(List)
 
-### 栈和队列（Stack&Queue）：栈的典型应用。
+### 栈和队列（Stack&Queue）
+- [x] [20. Valid Parentheses](http://oj.leetcode.com/problems/valid-parentheses/)
+- [x] [150. Evaluate Reverse Polish Notation](http://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)
 ### 树（Tree）：构建、验证、遍历、转换。
 #### Binary Tree
 ##### BFS (preorder / inorder / postorder) || Divide & Conquer
