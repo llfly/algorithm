@@ -146,19 +146,19 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 
 ## 基础结构（Fundamentals）
 
-### 数组(Array)
+### Array
 - [x] [27. Remove Element](http://oj.leetcode.com/problems/remove-element/)
 - [x] [41. First Missing Positive](http://oj.leetcode.com/problems/first-missing-positive/)
 - [x] [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [x] [54. Spiral Matrix](http://oj.leetcode.com/problems/spiral-matrix/)
 - [x] [59. Spiral Matrix II](http://oj.leetcode.com/problems/spiral-matrix-ii/)
 - [x] [88. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
-### 链表(List)
+### List
 
-### 栈和队列（Stack&Queue）
+### Stack & Queue
 - [x] [20. Valid Parentheses](http://oj.leetcode.com/problems/valid-parentheses/)
 - [x] [150. Evaluate Reverse Polish Notation](http://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)
-### 树（Tree）：构建、验证、遍历、转换。
+### Tree
 #### Binary Tree
 ##### BFS (preorder / inorder / postorder) || Divide & Conquer
 - [x] [144. Binary Tree Preorder Traversal](http://oj.leetcode.com/problems/binary-tree-preorder-traversal/)
@@ -195,13 +195,13 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 
 
-### 字符串（String）：转换、搜索、运算。
+### String
 
 ## 积木块（Building Block）
 ### 哈希表（Hashing）
 ### 分治（Divide-and-Conquer）
 ### 排序（Sorting）& 查找（Searching)
-### 二分查找（Binary Search）
+### Binary Search
 - [x] [69. Sqrt(x)](http://oj.leetcode.com/problems/sqrtx/)
 - [x] [74. Search-a-2d-matrix](http://oj.leetcode.com/problems/search-a-2d-matrix/)
 - [x] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
@@ -232,7 +232,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 
 ## 其他杂项（Misc）：
 
-### 简单数学（Math）
+### Math
 
 - [x] [118. Pascal's Triangle](http://oj.leetcode.com/problems/pascals-triangle/)
 - [ ] [119. Pascal's Triangle II](http://oj.leetcode.com/problems/pascals-triangle-ii/)
@@ -246,7 +246,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 
 ### 大数字
 
-### 位运算（Bit Manipulation）
+### Bit Manipulation
 
 - [x] [136. Single Number](http://oj.leetcode.com/problems/single-number/)
 - [ ] [137. Single Number II](http://oj.leetcode.com/problems/single-number-ii/)
