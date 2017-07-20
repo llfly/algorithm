@@ -168,31 +168,34 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [111. Minimum Depth of Binary Tree](http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)
 - [x] [100. Same Tree](http://oj.leetcode.com/problems/same-tree/)
 - [x] [101. Symmetric Tree](http://oj.leetcode.com/problems/symmetric-tree/)
-- [x] [110. Balanced Binary Tree](http://oj.leetcode.com/problems/balanced-binary-tree/)
-- [x] [98. Validate Binary Search Tree](http://oj.leetcode.com/problems/validate-binary-search-tree/)
 
 ##### DFS
 - [x] [102. Binary Tree Level Order Traversal](http://oj.leetcode.com/problems/binary-tree-level-order-traversal/)
 - [x] [103. Binary Tree Zigzag Level Order Traversal](http://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 - [x] [107. Binary Tree Level Order Traversal II](http://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 
+##### Balanced Binary Tree
+- [x] [110. Balanced Binary Tree](http://oj.leetcode.com/problems/balanced-binary-tree/)
+- [x] [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
+
 ##### Binary Search Tree
+- [x] [98. Validate Binary Search Tree](http://oj.leetcode.com/problems/validate-binary-search-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
+- [ ] ] ](http://oj.leetcode.com/problems/unique-binary-search-trees-ii/)
 
 ##### ...
-
-- [ ] ] ](http://oj.leetcode.com/problems/unique-binary-search-trees-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)
-- [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
 - [ ] [ ](http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
-- [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
-- [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
+
 
 
 ### String

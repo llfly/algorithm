@@ -1,7 +1,7 @@
 // Binary Tree
-// 基本操作
-// 分治法
-// 遍历 深度(递归)／广度(队列)遍历
+// - 基本操作
+// - 思想：分治法
+// - 遍历 深度遍历（递归） ／ 广度遍历（队列）
 
 
 // 1. Binary Tree DFS Traversal
@@ -130,7 +130,6 @@ console.log(preorder(root));
 // 稳定性 稳定排序 1 2(1) 2(2)  
 // ==>  1 2(1) 2(2) 稳定排序
 // ==>  1 2(2) 2(2) 不稳定排序
-
 
 
 
@@ -328,4 +327,7 @@ console.log(BST(root));
 
 // Remove Node in Binary Search Tree
 
-
+// Morris Traversal
+// Red Black Tree
+// avl(BST    blance)
+// Trie

@@ -29,4 +29,7 @@ const createFile = (filepath) => {
     });
 }
 
-createFile(compose(camelCase, postfix, filePath)('122222')('../leetcode'));
+
+let targetStr = '501. Find Mode in Binary Search Tree';
+
+createFile(compose(camelCase, postfix, filePath)(targetStr)('../leetcode'));

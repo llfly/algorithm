@@ -33,11 +33,11 @@ Binary tree [1,2,3], return false.
 var isValidBST = function(...rest) {
     let [root, minVal = Number.MIN_SAFE_INTEGER, maxVal = Number.MAX_SAFE_INTEGER] = rest;
 
-    if(root == null) {
+    if (root == null) {
       return true;
     }
 
-    if(root.val >= maxVal || root.val <= minVal){
+    if (root.val >= maxVal || root.val <= minVal) {
       return false;
     }
 
