@@ -30,6 +30,6 @@ const createFile = (filepath) => {
 }
 
 
-let targetStr = '501. Find Mode in Binary Search Tree';
+let targetStr = '95. Unique Binary Search Trees II';
 
 createFile(compose(camelCase, postfix, filePath)(targetStr)('../leetcode'));

@@ -23,6 +23,44 @@ Given n = 3, your program should return all 5 unique BST's shown below.
  * @param {number} n
  * @return {TreeNode[]}
  */
-var generateTrees = function (n) {
 
+function TreeNode(val) {
+    this.val = val;
+    this.left = this.right = null;
+}
+
+
+
+var generateTrees = function (n) {
+    if (!n) {
+        return [];
+    }
+
+    const generateTree = (begin, end) => {
+        let left = [], right = [], res = [];
+
+        if (begin > end) {
+            res.push(null);
+            return res;
+        }
+
+        for (let i = begin; i <= end; i++) {
+            left = generateTree(begin, i - 1);
+            right = generateTree(i + 1, end);
+            left.forEach(l => {
+                right.forEach(r => {
+                    let root = new TreeNode(i);
+                    root.left = l;
+                    root.right = r;
+                    res.push(root);
+                })
+            })
+        }
+        return res;
+    }
+
+    return generateTree(1, n);
 };
+
+console.log(generateTrees(0));
+console.log(generateTrees(3));
