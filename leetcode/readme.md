@@ -192,13 +192,10 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 
-
 ##### ...
 - [ ] [ ](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
-
-
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)

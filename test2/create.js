@@ -9,6 +9,12 @@ const compose = (first, ...last) => (...initArgs) =>
         func(compose), first(...initArgs))
 
 
+//padLeft
+const padLeftZero = (str,pad = '000') => {
+    let arr = str.split('.');
+    return `${(pad + arr.shift()).slice(-pad.length)}.${arr.join('')}`;
+}
+
 // turn hello world ==> Hello-World
 const camelCase = (str) =>
     str.replace(/\./, '').split(' ').map(item =>
@@ -32,4 +38,4 @@ const createFile = (filepath) => {
 
 let targetStr = '106. Construct Binary Tree from Inorder and Postorder Traversal';
 
-createFile(compose(camelCase, postfix, filePath)(targetStr)('../leetcode'));
+createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));
