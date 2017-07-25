@@ -169,6 +169,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [x] [100. Same Tree](http://oj.leetcode.com/problems/same-tree/)
 - [x] [101. Symmetric Tree](http://oj.leetcode.com/problems/symmetric-tree/)
 - [x] [105. Construct Binary Tree from Preorder and Inorder Traversal](http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [x] [106. Construct Binary Tree from Inorder and Postorder Traversal](http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 ##### DFS
 - [x] [102. Binary Tree Level Order Traversal](http://oj.leetcode.com/problems/binary-tree-level-order-traversal/)
@@ -197,7 +198,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
 
-- [ ] [ ](http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)

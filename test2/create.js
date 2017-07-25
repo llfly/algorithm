@@ -30,6 +30,6 @@ const createFile = (filepath) => {
 }
 
 
-let targetStr = '105. Construct Binary Tree from Preorder and Inorder Traversal';
+let targetStr = '106. Construct Binary Tree from Inorder and Postorder Traversal';
 
 createFile(compose(camelCase, postfix, filePath)(targetStr)('../leetcode'));
