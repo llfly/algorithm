@@ -41,12 +41,13 @@
 - [x] [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
 - [x] [95. Unique Binary Search Trees II](http://oj.leetcode.com/problems/unique-binary-search-trees-ii/)
 - [x] [108. Convert Sorted Array to Binary Search Tree](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [x] [109. Convert Sorted List to Binary Search Tree](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 
 ##### Binary 
 
 - [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
 
-- [ ] [ ](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
+
 
 - [ ] [ ](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
