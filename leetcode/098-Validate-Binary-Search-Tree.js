@@ -30,35 +30,22 @@ Binary tree [1,2,3], return false.
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isValidBST = function(...rest) {
-    let [root, minVal = Number.MIN_SAFE_INTEGER, maxVal = Number.MAX_SAFE_INTEGER] = rest;
 
-    if (root == null) {
-      return true;
-    }
+let { TreeHelper } = require('../helper');
 
-    if (root.val >= maxVal || root.val <= minVal) {
-      return false;
-    }
+var isValidBST = function (...rest) {
+  let [root, minVal = Number.MIN_SAFE_INTEGER, maxVal = Number.MAX_SAFE_INTEGER] = rest;
 
-    return isValidBST(root.left, minVal, root.val) && isValidBST(root.right, root.val, maxVal);
+  if (root == null) {
+    return true;
+  }
+
+  if (root.val >= maxVal || root.val <= minVal) {
+    return false;
+  }
+
+  return isValidBST(root.left, minVal, root.val) && isValidBST(root.right, root.val, maxVal);
 };
 
-let root1 = {
-  val:2,
-  left:{
-    val:1
-  },
-  right:{
-    val:3
-  }
-}
-
-
-let root2 = {
-  val:0
-}
-
-
-console.log(isValidBST(root1));
-console.log(isValidBST(root2));
+console.log(isValidBST(TreeHelper([2, 1, 3])));
+console.log(isValidBST(TreeHelper([0])));

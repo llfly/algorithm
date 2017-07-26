@@ -23,6 +23,7 @@ But the following [1,2,2,null,3,null,3] is not:
  *     this.left = this.right = null;
  * }
  */
+let { TreeHelper } = require('../helper');
 /**
  * @param {TreeNode} root
  * @return {boolean}
@@ -47,27 +48,4 @@ var isSymmetric = function (root) {
     return isMirror(root.left, root.right);
 };
 
-
-let root = {
-    val: 1,
-    left: {
-        val: 2,
-        left: {
-            val: 3,
-        },
-        right: {
-            val: 4
-        }
-    },
-    right: {
-        val: 2,
-        left: {
-            val: 4
-        },
-        right: {
-            val: 3
-        }
-    }
-}
-
-console.log(isSymmetric(root))
+console.log(isSymmetric(TreeHelper([3, 2, 4, 1, 3, 2, 4])))

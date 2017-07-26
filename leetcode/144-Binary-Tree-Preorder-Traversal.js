@@ -23,6 +23,9 @@ Note: Recursive solution is trivial, could you do it iteratively?
  *     this.left = this.right = null;
  * }
  */
+
+let { TreeHelper } = require('../helper');
+
 /**
  * @param {TreeNode} root
  * @return {number[]}
@@ -89,18 +92,7 @@ const preorder = function (root) {
 
 
 
-let root = {
-    val: 1,
-    left: {
-        val: 2,
-        left: null,
-        right: {
-            val: 3,
-            left: null,
-            right: null
-        }
-    }
-};
+let root = TreeHelper([null, 2, null, 3, null, 1, null]);
 
 
 console.log(preorderTraversal(root));

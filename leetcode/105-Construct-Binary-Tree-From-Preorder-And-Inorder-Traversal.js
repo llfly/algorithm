@@ -17,12 +17,8 @@ You may assume that duplicates do not exist in the tree.
  *     this.left = this.right = null;
  * }
  */
-function TreeNode(val) {
-    this.val = val;
-    this.left = this.right = null;
-}
 
-
+let { TreeNode } = require('../helper');
 
 /**
  * @param {number[]} preorder

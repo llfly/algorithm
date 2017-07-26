@@ -3,16 +3,16 @@
 ## 基础结构（Fundamentals）
 
 ### Array
-- [x] [27. Remove Element](http://oj.leetcode.com/problems/remove-element/)
-- [x] [41. First Missing Positive](http://oj.leetcode.com/problems/first-missing-positive/)
-- [x] [48. Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [x] [54. Spiral Matrix](http://oj.leetcode.com/problems/spiral-matrix/)
-- [x] [59. Spiral Matrix II](http://oj.leetcode.com/problems/spiral-matrix-ii/)
-- [x] [88. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
+- [x] [027. Remove Element](http://oj.leetcode.com/problems/remove-element/)
+- [x] [041. First Missing Positive](http://oj.leetcode.com/problems/first-missing-positive/)
+- [x] [048. Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [x] [054. Spiral Matrix](http://oj.leetcode.com/problems/spiral-matrix/)
+- [x] [059. Spiral Matrix II](http://oj.leetcode.com/problems/spiral-matrix-ii/)
+- [x] [088. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
 ### List
 
 ### Stack & Queue
-- [x] [20. Valid Parentheses](http://oj.leetcode.com/problems/valid-parentheses/)
+- [x] [020. Valid Parentheses](http://oj.leetcode.com/problems/valid-parentheses/)
 - [x] [150. Evaluate Reverse Polish Notation](http://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)
 ### Tree
 #### Binary Tree
@@ -37,17 +37,15 @@
 
 
 ##### Binary Search Tree
-- [x] [98. Validate Binary Search Tree](http://oj.leetcode.com/problems/validate-binary-search-tree/)
+- [x] [098. Validate Binary Search Tree](http://oj.leetcode.com/problems/validate-binary-search-tree/)
 - [x] [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
-- [x] [95. Unique Binary Search Trees II](http://oj.leetcode.com/problems/unique-binary-search-trees-ii/)
+- [x] [095. Unique Binary Search Trees II](http://oj.leetcode.com/problems/unique-binary-search-trees-ii/)
 - [x] [108. Convert Sorted Array to Binary Search Tree](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [x] [109. Convert Sorted List to Binary Search Tree](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 
 ##### Binary 
 
 - [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
-
-
 
 - [ ] [ ](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
@@ -66,25 +64,25 @@
 ### 分治（Divide-and-Conquer）
 ### 排序（Sorting）& 查找（Searching)
 ### Binary Search
-- [x] [69. Sqrt(x)](http://oj.leetcode.com/problems/sqrtx/)
-- [x] [74. Search-a-2d-matrix](http://oj.leetcode.com/problems/search-a-2d-matrix/)
+- [x] [069. Sqrt(x)](http://oj.leetcode.com/problems/sqrtx/)
+- [x] [074. Search-a-2d-matrix](http://oj.leetcode.com/problems/search-a-2d-matrix/)
 - [x] [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
-- [x] [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
-- [x] [35. Search Insert Position](http://oj.leetcode.com/problems/search-insert-position/)
-- [x] [33. Search in Rotated Sorted Array](http://oj.leetcode.com/problems/search-in-rotated-sorted-array/)
-- [x] [81. Search in Rotated Sorted Array II](http://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+- [x] [034. Search for a Range](https://leetcode.com/problems/search-for-a-range/)
+- [x] [035. Search Insert Position](http://oj.leetcode.com/problems/search-insert-position/)
+- [x] [033. Search in Rotated Sorted Array](http://oj.leetcode.com/problems/search-in-rotated-sorted-array/)
+- [x] [081. Search in Rotated Sorted Array II](http://oj.leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 - [x] [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [x] [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 - [x] [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [x] [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
-- [ ] [4. Median of Two Sorted Arrays](http://oj.leetcode.com/problems/median-of-two-sorted-arrays/)
+- [ ] [004. Median of Two Sorted Arrays](http://oj.leetcode.com/problems/median-of-two-sorted-arrays/)
 ## 高级算法（Advanced）
 
 ### 组合算法（Combinatorial Algorithm）
 - 回溯（Backtracking）
 - 组合（Combination）
 - 子集（Subset）
-    - [77-combinations](http://oj.leetcode.com/problems/combinations/)
+    - [077-combinations](http://oj.leetcode.com/problems/combinations/)
 - 排列（Permutation）
 - 分区（Partition）
 
@@ -100,8 +98,8 @@
 
 - [x] [118. Pascal's Triangle](http://oj.leetcode.com/problems/pascals-triangle/)
 - [x] [119. Pascal's Triangle II](http://oj.leetcode.com/problems/pascals-triangle-ii/)
-- [ ] [50. Pow(x, n)](http://oj.leetcode.com/problems/powx-n/)
-- [ ] [13. Roman to Integer](http://oj.leetcode.com/problems/roman-to-integer/)
+- [ ] [050. Pow(x, n)](http://oj.leetcode.com/problems/powx-n/)
+- [ ] [013. Roman to Integer](http://oj.leetcode.com/problems/roman-to-integer/)
 
 ### 翻转
 - [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/)

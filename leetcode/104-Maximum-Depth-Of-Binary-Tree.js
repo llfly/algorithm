@@ -12,6 +12,8 @@ The maximum depth is the number of nodes along the longest path from the root no
  *     this.left = this.right = null;
  * }
  */
+let { TreeHelper } = require('../helper');
+
 /**
  * @param {TreeNode} root
  * @return {number}
@@ -26,39 +28,4 @@ var maxDepth = function (root) {
     return Math.max(left, right) + 1;
 };
 
-
-let root = {
-    val: 1,
-    left: {
-        val: 2,
-        left: {
-            val: 4,
-            left: {
-                val: 8,
-                left: null,
-                right: null
-            },
-            right: null
-        },
-        right: {
-            val: 5,
-            left: null,
-            right: null
-        }
-    },
-    right: {
-        val: 3,
-        left: {
-            val: 6,
-            left: null,
-            right: null
-        },
-        right: {
-            val: 7,
-            left: null,
-            right: null
-        }
-    }
-};
-
-console.log(maxDepth(root));
+console.log(maxDepth(TreeHelper([null, 8, null, 4, null, 2, null, 5, null, 1, null, 6, null, 3, null, 7, null])));

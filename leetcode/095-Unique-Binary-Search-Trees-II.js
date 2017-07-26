@@ -23,13 +23,7 @@ Given n = 3, your program should return all 5 unique BST's shown below.
  * @param {number} n
  * @return {TreeNode[]}
  */
-
-function TreeNode(val) {
-    this.val = val;
-    this.left = this.right = null;
-}
-
-
+let { TreeNode } = require('../helper');
 
 var generateTrees = function (n) {
     if (!n) {

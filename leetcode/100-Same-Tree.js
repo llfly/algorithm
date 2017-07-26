@@ -11,6 +11,8 @@ Two binary trees are considered equal if they are structurally identical and the
  *     this.left = this.right = null;
  * }
  */
+let { TreeHelper } = require('../helper');
+
 /**
  * @param {TreeNode} p
  * @param {TreeNode} q
@@ -30,28 +32,5 @@ var isSameTree = function (p, q) {
     return false;
 };
 
-[10, 5, 15]
-[10, 5, null, null, 15]
+console.log(isSameTree(TreeHelper([10, 5, 15]), TreeHelper(10, 5, null, null, 15)));
 
-
-let p = {
-    val: 10,
-    left: {
-        val: 5
-    },
-    right: {
-        val: 15
-    }
-}
-
-let q = {
-    val: 10,
-    left: {
-        val: 5,
-        left: null,
-        right: 15
-    },
-    right: null
-}
-
-console.log(isSameTree(p, q));

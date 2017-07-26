@@ -21,10 +21,7 @@ Given a singly linked list where elements are sorted in ascending order, convert
  * @return {TreeNode}
  */
 
-function TreeNode(val) {
-    this.val = val;
-    this.left = this.right = null;
-}
+let {ListHelper, TreeNode} = require('../helper');
 
 var sortedListToBST = function (head) {
     if (head == null) {
@@ -59,18 +56,5 @@ var sortedListToBST = function (head) {
 
 
 let arr = [1, 2, 3, 5, 6, 8, 9];
-function ListNode(val) {
-    this.val = val;
-    this.next = null;
-}
-const ListHelper = (arr) => {
-    let obj = new ListNode(arr.shift());
-    arr.reduce((pre, cur) => {
-        pre.next = new ListNode(cur);
-        return pre.next;
-    }, obj);
-    return obj;
-};
-
 
 console.log(sortedListToBST(ListHelper(arr)));

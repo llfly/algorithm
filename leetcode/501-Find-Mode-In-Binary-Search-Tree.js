@@ -29,6 +29,8 @@ Follow up: Could you do that without using any extra space? (Assume that the imp
  *     this.left = this.right = null;
  * }
  */
+
+let { TreeHelper } = require('../helper');
 /**
  * @param {TreeNode} root
  * @return {number[]}
@@ -65,20 +67,8 @@ var findMode = function (root) {
 };
 
 
-let root1 = {
-    val: 1,
-    left: null,
-    right: {
-        val: 2,
-        left: {
-            val: 2,
-            left: null,
-            right: null
-        }
-    }
-}
-
-let root2 = {};
+let root1 = TreeHelper([null, 1, 2, 2]);
+let root2 = TreeHelper([null]);
 
 
 console.log(findMode(root1));

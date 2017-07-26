@@ -60,7 +60,6 @@ var generate = function (numRows) {
     return arr;
 }
 
-
 //test
 console.log(generate(5));
 

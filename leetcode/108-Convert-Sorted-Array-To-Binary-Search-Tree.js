@@ -14,10 +14,7 @@ Given an array where elements are sorted in ascending order, convert it to a hei
  * @return {TreeNode}
  */
 
-function TreeNode(val) {
-    this.val = val;
-    this.left = this.right = null;
-}
+let { TreeNode } = require('../helper');
 
 var sortedArrayToBST = function (nums) {
     const createTree = (start, end) => {

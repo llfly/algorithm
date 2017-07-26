@@ -11,6 +11,9 @@ The minimum depth is the number of nodes along the shortest path from the root n
  *     this.left = this.right = null;
  * }
  */
+
+let { TreeHelper } = require('../helper');
+
 /**
  * @param {TreeNode} root
  * @return {number}
@@ -26,53 +29,4 @@ var minDepth = function (root) {
     return (left == 0 || right == 0) ? left + right + 1 : Math.min(left, right) + 1;
 };
 
-
-
-let root = {
-    val: 1,
-    left: {
-        val: 2,
-        left: {
-            val: 4,
-            left: {
-                val: 8,
-                left: null,
-                right: null
-            },
-            right: null
-        },
-        right: {
-            val: 5,
-            left: null,
-            right: null
-        }
-    },
-    right: {
-        val: 3,
-        left: {
-            val: 6,
-            left: null,
-            right: null
-        },
-        right: {
-            val: 7,
-            left: null,
-            right: null
-        }
-    }
-};
-
-
-let test1 = {
-    val: 1,
-    left: {
-        val: 2,
-        left: null,
-        right: null
-    },
-    right: null
-}
-
-console.log(minDepth(root));
-
-console.log(minDepth(test1));
+console.log(minDepth(TreeHelper([null, 2, null, 1, null])));

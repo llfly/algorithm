@@ -15,13 +15,14 @@ A solution using O(n) space is pretty straight forward. Could you devise a const
  *     this.left = this.right = null;
  * }
  */
+let { TreeHelper } = require('../helper');
 /**
  * @param {TreeNode} root
  * @return {void} Do not return anything, modify root in-place instead.
  */
 let cursor = null;
 
-var recoverTree = function (root) {
+var recoverTree = function (...rest) {
 
 
     let [root, minVal = Number.MIN_SAFE_INTEGER, maxVal = Number.MAX_SAFE_INTEGER] = rest;
@@ -32,8 +33,8 @@ var recoverTree = function (root) {
 
     if (root.val >= maxVal || root.val <= minVal) {
         if (cursor == null) {
-             cursor = root;
-             return true;
+            cursor = root;
+            return true;
         } else {
             let tmp = root.val;
             root.val = cursor.val;
@@ -46,46 +47,6 @@ var recoverTree = function (root) {
     recoverTree(root.right, root.val, maxVal);
 };
 
-// let root1 = {
-//   val:2,
-//   left:{
-//     val:3
-//   },
-//   right:{
-//     val:1
-//   }
-// }
 
-
-let root2 = {
-    val:0,
-    left:{
-        val:1
-    },
-    right:{
-        val:2
-    }
-}
-
-
-let root3 = {
-    val : 2,
-    left : {
-        val:0
-    },
-    right: {
-        val:1
-    }
-}
-
-
-//recoverTree(root1);
-//console.log(root1);
-//recoverTree(root2);
-
-
-
-recoverTree(root3);
-
-console.log(root2);
-console.log(root3);
+console.log(recoverTree(TreeHelper([2, 0, 1])));
+console.log(recoverTree(TreeHelper(0, 1, 2)));

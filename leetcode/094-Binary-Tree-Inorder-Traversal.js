@@ -23,10 +23,14 @@ Note: Recursive solution is trivial, could you do it iteratively?
  *     this.left = this.right = null;
  * }
  */
+
+let { TreeHelper } = require('../helper');
+
 /**
  * @param {TreeNode} root
  * @return {number[]}
  */
+
 var inorderTraversal = function (root) {
     let result = [];
     if (root == null) {
@@ -45,17 +49,5 @@ var inorderTraversal = function (root) {
 };
 
 
-let root = {
-    val: 1,
-    left: {
-        val: 2,
-        left: null,
-        right: {
-            val: 3,
-            left: null,
-            right: null
-        }
-    }
-};
-
+let root = TreeHelper([2, 1, 3]);
 console.log(inorderTraversal(root))
