@@ -18,7 +18,7 @@
 #### Binary Tree
 ##### BFS (preorder / inorder / postorder) || Divide & Conquer
 - [x] [144. Binary Tree Preorder Traversal](http://oj.leetcode.com/problems/binary-tree-preorder-traversal/)
-- [x] [94. Binary Tree Inorder Traversal](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)
+- [x] [094. Binary Tree Inorder Traversal](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)
 - [x] [145. Binary Tree Postorder Traversal](http://oj.leetcode.com/problems/binary-tree-postorder-traversal/)
 - [x] [104. Maximum Depth of Binary Tree](http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [x] [111. Minimum Depth of Binary Tree](http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)
@@ -34,7 +34,7 @@
 
 ##### Balanced Binary Tree
 - [x] [110. Balanced Binary Tree](http://oj.leetcode.com/problems/balanced-binary-tree/)
-
+- [x] [129. Sum Root to Leaf Numbers](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
 
 ##### Binary Search Tree
 - [x] [098. Validate Binary Search Tree](http://oj.leetcode.com/problems/validate-binary-search-tree/)
@@ -46,8 +46,6 @@
 ##### Binary 
 
 - [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
-
-- [ ] [ ](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)
@@ -104,7 +102,7 @@
 ### 翻转
 - [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 - [x] [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
-- [ ] [186.Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
+- [ ] [186. Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
 
 ### 大数字
 
