@@ -64,7 +64,7 @@ http://oj.leetcode.com/problems/swap-nodes-in-pairs/
 Merge 两个链表：http://oj.leetcode.com/problems/merge-two-sorted-lists/
 Merge 多链表：http://oj.leetcode.com/problems/merge-k-sorted-lists/
 细节：http://oj.leetcode.com/problems/reverse-nodes-in-k-group/
-http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/
+
 http://oj.leetcode.com/problems/reverse-linked-list-ii/
 
 问题分析/智商/细节：

@@ -9,7 +9,10 @@
 - [x] [054. Spiral Matrix](http://oj.leetcode.com/problems/spiral-matrix/)
 - [x] [059. Spiral Matrix II](http://oj.leetcode.com/problems/spiral-matrix-ii/)
 - [x] [088. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
+
 ### List
+- [ ] [ ](http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
 
 ### Stack & Queue
 - [x] [020. Valid Parentheses](http://oj.leetcode.com/problems/valid-parentheses/)
@@ -27,6 +30,8 @@
 - [x] [105. Construct Binary Tree from Preorder and Inorder Traversal](http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [x] [106. Construct Binary Tree from Inorder and Postorder Traversal](http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [x] [114. Flatten Binary Tree to Linked List](http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+- [x] [112. Path Sum](http://oj.leetcode.com/problems/path-sum/)
+- [x] [113. Path Sum II](http://oj.leetcode.com/problems/path-sum-ii/)
 
 ##### DFS
 - [x] [102. Binary Tree Level Order Traversal](http://oj.leetcode.com/problems/binary-tree-level-order-traversal/)
@@ -47,8 +52,6 @@
 ##### Binary 
 
 - [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
-- [ ] [112. Path Sum](http://oj.leetcode.com/problems/path-sum/)
-- [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
