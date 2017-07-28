@@ -36,6 +36,6 @@ const createFile = (filepath) => {
 }
 
 
-let targetStr = '112. Path Sum';
+let targetStr = '113. Path Sum II';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));
