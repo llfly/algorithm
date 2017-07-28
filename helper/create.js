@@ -36,6 +36,6 @@ const createFile = (filepath) => {
 }
 
 
-let targetStr = '114. Flatten Binary Tree to Linked List';
+let targetStr = '112. Path Sum';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));

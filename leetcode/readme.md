@@ -47,7 +47,7 @@
 ##### Binary 
 
 - [ ] [ ](http://oj.leetcode.com/problems/recover-binary-search-tree/)
-- [ ] [ ](http://oj.leetcode.com/problems/path-sum/)
+- [ ] [112. Path Sum](http://oj.leetcode.com/problems/path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/path-sum-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)
