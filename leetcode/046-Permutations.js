@@ -1,5 +1,21 @@
-// Permutation Sequence
+/*
+Given a collection of distinct numbers, return all possible permutations.
 
+For example,
+[1,2,3] have the following permutations:
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]
+*/
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
 const permutationsHelper = (result, path, list) => {
     if (path.length === list.length) {
         result.push(path.slice());
@@ -16,13 +32,10 @@ const permutationsHelper = (result, path, list) => {
     }
 }
 
-
-const permutations = (list) => {
+var permute = function (nums) {
     let result = [], path = [];
-    permutationsHelper(result, path, list);
+    permutationsHelper(result, path, nums);
     return result;
-}
+};
 
-
-
-// Unique Permutation
+console.log(permute([1, 2, 3]));

@@ -57,7 +57,6 @@
 - [ ] [ ](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 
 
-
 ### String
 
 ## 积木块（Building Block）
@@ -80,16 +79,22 @@
 ## 高级算法（Advanced）
 
 ### 组合算法（Combinatorial Algorithm）
-- 回溯（Backtracking）
-- 组合（Combination）
-- 子集（Subset）
-    - [077-combinations](http://oj.leetcode.com/problems/combinations/)
-- 排列（Permutation）
-- 分区（Partition）
+#### 回溯（Backtracking）
 
-### 贪心算法（Greedy Algorithm）：贪心的典型应用。
+#### 组合（Combination）
 
-### 动态规划（Dynamic Programming）：广泛应用DP求最优解。
+#### 子集（Subset）
+- [x][077. combinations](http://oj.leetcode.com/problems/combinations/)
+
+#### 排列（Permutation）
+- [x][046. Permutations](http://oj.leetcode.com/problems/permutations/)
+- [ ] [ ](http://oj.leetcode.com/problems/permutations-ii/)
+
+#### 分区（Partition）
+
+### 贪心算法（Greedy Algorithm）
+
+### 动态规划（Dynamic Programming）
 - 01 背包
 - 完全背包
 
