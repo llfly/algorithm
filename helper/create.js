@@ -36,6 +36,6 @@ const createFile = (filepath) => {
 }
 
 
-let targetStr = '046. Permutations';
+let targetStr = '51. N-Queens';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));

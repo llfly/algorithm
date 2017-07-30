@@ -87,11 +87,12 @@
 - [x][077. combinations](http://oj.leetcode.com/problems/combinations/)
 
 #### 排列（Permutation）
-- [ ][031. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
-- [x][046. Permutations](http://oj.leetcode.com/problems/permutations/)
-- [ ][047. Permutations II](http://oj.leetcode.com/problems/permutations-ii/)
-- [ ][060. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
-
+- [x] [046. Permutations](http://oj.leetcode.com/problems/permutations/)
+- [ ] [047. Permutations II](http://oj.leetcode.com/problems/permutations-ii/)
+- [ ] [051. N-Queens](https://leetcode.com/problems/n-queens/description/)
+- [ ] [017. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [ ] [039. Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 #### 分区（Partition）
 
 ### 贪心算法（Greedy Algorithm）
@@ -108,6 +109,9 @@
 - [x] [119. Pascal's Triangle II](http://oj.leetcode.com/problems/pascals-triangle-ii/)
 - [ ] [050. Pow(x, n)](http://oj.leetcode.com/problems/powx-n/)
 - [ ] [013. Roman to Integer](http://oj.leetcode.com/problems/roman-to-integer/)
+
+- [ ] [060. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
+- [ ] [031. Next Permutation](https://leetcode.com/problems/next-permutation/)
 
 ### 翻转
 - [x] [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
