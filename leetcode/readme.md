@@ -87,8 +87,10 @@
 - [x][077. combinations](http://oj.leetcode.com/problems/combinations/)
 
 #### 排列（Permutation）
+- [ ][031. Next Permutation](https://leetcode.com/problems/next-permutation/description/)
 - [x][046. Permutations](http://oj.leetcode.com/problems/permutations/)
-- [ ] [ ](http://oj.leetcode.com/problems/permutations-ii/)
+- [ ][047. Permutations II](http://oj.leetcode.com/problems/permutations-ii/)
+- [ ][060. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)
 
 #### 分区（Partition）
 

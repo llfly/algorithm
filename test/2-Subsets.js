@@ -98,7 +98,7 @@ const uniqueSubsetHelper = (result, path, list, pos) => {
 
 const uniqueSubsets = (list) => {
     let result = [], path = [];
-    list.sort((a,b)=>a-b);
+    list.sort((a, b) => a - b);
     uniqueSubsetHelper(result, path, list, 0);
     return result;
 };
