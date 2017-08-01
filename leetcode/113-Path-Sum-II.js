@@ -35,7 +35,7 @@ var pathSum = function (root, sum) {
     if (root == null) {
         return results;
     }
-    
+
     const sumHepler = (root, tmp) => {
 
         if (root.left == null && root.right == null) {
@@ -45,7 +45,7 @@ var pathSum = function (root, sum) {
             }
             return;
         }
-        
+
         tmp.push(root.val);
 
         if (root.left) {
