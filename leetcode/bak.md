@@ -73,8 +73,6 @@ http://oj.leetcode.com/problems/gas-station/
 
 动态规划：
 - [ ] [ ](http://oj.leetcode.com/problems/triangle/  （最短路径）)
-- [ ] [ ](http://oj.leetcode.com/problems/subsets/ （另一种形式）)
-- [ ] [ ](http://oj.leetcode.com/problems/subsets-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/edit-distance/ （经典）)
 - [ ] [ ](http://oj.leetcode.com/problems/word-break/)
 - [ ] [ ](http://oj.leetcode.com/problems/word-break-ii/)
@@ -91,8 +89,6 @@ http://oj.leetcode.com/problems/gas-station/
 
 回溯：
 [22. Generate Parentheses](http://oj.leetcode.com/problems/generate-parentheses/)
-- [ ] [ ](http://oj.leetcode.com/problems/combination-sum/)
-- [ ] [ ](http://oj.leetcode.com/problems/combination-sum-ii/)
 - [ ] [ ](http://oj.leetcode.com/problems/sudoku-solver/)
 - [ ] [ ](http://oj.leetcode.com/problems/n-queens/(经典N皇后))
 - [ ] [ ](http://oj.leetcode.com/problems/n-queens-ii/)
@@ -135,7 +131,7 @@ http://oj.leetcode.com/problems/word-ladder-ii/
 http://oj.leetcode.com/problems/surrounded-regions/(广搜)
 
 
-
+- [ ] [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 
 87 Scramble String (递归)
 95 Unique Binary Search Trees (DP)

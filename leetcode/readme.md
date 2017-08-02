@@ -79,20 +79,23 @@
 ## 高级算法（Advanced）
 
 ### 组合算法（Combinatorial Algorithm）
+
 #### 回溯（Backtracking）
+- [ ] [039. Combination Sum](http://oj.leetcode.com/problems/combination-sum/)
+- [ ] [ ](http://oj.leetcode.com/problems/combination-sum-ii/)
 
 #### 组合（Combination）
 
 #### 子集（Subset）
 - [x] [077. combinations](http://oj.leetcode.com/problems/combinations/)
 - [x] [078. Subsets](https://leetcode.com/problems/subsets/)
+- [x] [090. Subsets II](https://leetcode.com/problems/subsets-ii/)
 
 #### 排列（Permutation）
 - [x] [046. Permutations](http://oj.leetcode.com/problems/permutations/)
-- [ ] [047. Permutations II](http://oj.leetcode.com/problems/permutations-ii/)
+- [x] [047. Permutations II](http://oj.leetcode.com/problems/permutations-ii/)
 - [ ] [051. N-Queens](https://leetcode.com/problems/n-queens/description/)
 - [ ] [017. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-- [ ] [039. Combination Sum](https://leetcode.com/problems/combination-sum/)
 - [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 #### 分区（Partition）
 
