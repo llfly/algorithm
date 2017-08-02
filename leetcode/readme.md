@@ -84,7 +84,8 @@
 #### 组合（Combination）
 
 #### 子集（Subset）
-- [x][077. combinations](http://oj.leetcode.com/problems/combinations/)
+- [x] [077. combinations](http://oj.leetcode.com/problems/combinations/)
+- [x] [078. Subsets](https://leetcode.com/problems/subsets/)
 
 #### 排列（Permutation）
 - [x] [046. Permutations](http://oj.leetcode.com/problems/permutations/)
