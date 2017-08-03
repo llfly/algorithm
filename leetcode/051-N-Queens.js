@@ -70,7 +70,6 @@ const draw = (arr) => {
 
 const queenHelper = (result, path, n) => {
     if (path.length === n) {
-        console.log(path);
         result.push(draw(path.slice()));
         return;
     }

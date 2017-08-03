@@ -35,6 +35,6 @@ const createFile = (filepath) => {
     });
 }
 
-let targetStr = '90. Subsets II';
+let targetStr = '17. Letter Combinations of a Phone Numbers';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));
