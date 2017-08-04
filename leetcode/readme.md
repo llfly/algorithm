@@ -94,9 +94,11 @@
 #### 排列（Permutation）
 - [x] [046. Permutations](http://oj.leetcode.com/problems/permutations/)
 - [x] [047. Permutations II](http://oj.leetcode.com/problems/permutations-ii/)
-- [ ] [051. N-Queens](https://leetcode.com/problems/n-queens/description/)
-- [ ] [017. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [x] [017. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [ ] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+- [ ] [051. N-Queens](https://leetcode.com/problems/n-queens/description/)
+
+
 #### 分区（Partition）
 
 ### 贪心算法（Greedy Algorithm）
