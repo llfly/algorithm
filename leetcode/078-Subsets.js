@@ -30,7 +30,7 @@ const subsetHelper = (result, path, nums, pos) => {
     for (let i = pos; i < nums.length; i++) {
         path.push(nums[i]);
         subsetHelper(result, path, nums, i + 1);
-        path.splice(path.length - 1);
+        path.pop();
     }
 }
 

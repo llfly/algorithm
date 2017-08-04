@@ -28,7 +28,7 @@ const permutationsHelper = (result, path, list) => {
         }
         path.push(list[i]);
         permutationsHelper(result, path, list);
-        path.splice(path.length - 1);
+        path.pop();
     }
 }
 

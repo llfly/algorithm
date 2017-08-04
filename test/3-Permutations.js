@@ -12,7 +12,7 @@ const permutationsHelper = (result, path, list) => {
         }
         path.push(list[i]);
         permutationsHelper(result, path, list);
-        path.splice(path.length - 1);
+        path.pop();
     }
 }
 
@@ -44,7 +44,7 @@ const uniquePermutationHelper = (result, path, list, visited) => {
         visited[i] = true;// 表示 path 中是否有第 i 个数
         path.push(list[i]);
         uniquePermutationHelper(result, path, list, visited);// 递归之后 需要还原之前的所有操作 回溯
-        path.splice(path.length - 1);
+        path.pop();
         visited[i] = false;// 被 splice 掉，所以需要 set false
     }
 }

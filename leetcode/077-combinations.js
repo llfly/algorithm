@@ -30,7 +30,7 @@ const combineHelper = (result, sum, list, pos, k) => {
     for (let i = pos; i < list.length; i++) {
         sum.push(list[i]);
         combineHelper(result, sum, list, i + 1, k);
-        sum.splice(sum.length - 1);
+        sum.pop();
     }
 };
 

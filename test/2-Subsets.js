@@ -47,7 +47,7 @@ const subsetHelper = (result, path, list, pos) => {
     for (let i = pos; i < list.length; i++) {
         path.push(list[i]);
         subsetHelper(result, path, list, i + 1);
-        path.splice(path.length - 1);
+        path.pop();
     }
 };
 
@@ -58,7 +58,7 @@ const subsets = (list) => {
 };
 
 
-//console.log(subsets([1, 2, 3, 4]));
+console.log(subsets([1, 2, 3, 4]));
 
 
 
@@ -92,7 +92,7 @@ const uniqueSubsetHelper = (result, path, list, pos) => {
         }
         path.push(list[i]);
         subsetHelper(result, path, list, i + 1);
-        path.splice(path.length - 1);
+        path.pop();
     }
 }
 

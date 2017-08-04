@@ -34,7 +34,7 @@ const permuteUniqueHelper = (result, path, nums, visited) => {
         path.push(nums[i]);
         visited[i] = true;
         permuteUniqueHelper(result, path, nums, visited);
-        path.splice(path.length - 1);
+        path.pop();
         visited[i] = false;
     }
 }
