@@ -35,6 +35,6 @@ const createFile = (filepath) => {
     });
 }
 
-let targetStr = '17. Letter Combinations of a Phone Numbers';
+let targetStr = '131. Palindrome Partitioning';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));
