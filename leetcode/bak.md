@@ -92,7 +92,7 @@ http://oj.leetcode.com/problems/gas-station/
 - [ ] [ ](http://oj.leetcode.com/problems/sudoku-solver/)
 - [ ] [ ](http://oj.leetcode.com/problems/n-queens/(经典N皇后))
 - [ ] [ ](http://oj.leetcode.com/problems/n-queens-ii/)
-- [ ] [ ](http://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
 
 贪心：
 - [ ] [ ](http://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/)
