@@ -35,6 +35,6 @@ const createFile = (filepath) => {
     });
 }
 
-let targetStr = '131. Palindrome Partitioning';
+let targetStr = '93. Restore IP Addresses';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));

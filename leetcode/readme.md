@@ -95,6 +95,7 @@
 - [x] [046. Permutations](http://oj.leetcode.com/problems/permutations/)
 - [x] [047. Permutations II](http://oj.leetcode.com/problems/permutations-ii/)
 - [x] [017. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [x] [093. Restore IP Addresses](http://oj.leetcode.com/problems/restore-ip-addresses/)
 - [x] [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 - [ ] [051. N-Queens](https://leetcode.com/problems/n-queens/description/)
 
