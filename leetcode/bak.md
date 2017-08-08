@@ -88,9 +88,8 @@ http://oj.leetcode.com/problems/gas-station/
 - [ ] [ ](http://oj.leetcode.com/problems/minimum-path-sum/)
 
 回溯：
-[22. Generate Parentheses](http://oj.leetcode.com/problems/generate-parentheses/)
+
 - [ ] [ ](http://oj.leetcode.com/problems/sudoku-solver/)
-- [ ] [ ](http://oj.leetcode.com/problems/n-queens/(经典N皇后))
 - [ ] [ ](http://oj.leetcode.com/problems/n-queens-ii/)
 
 
@@ -119,8 +118,10 @@ http://oj.leetcode.com/problems/gas-station/
 - [ ] [ ](http://oj.leetcode.com/problems/length-of-last-word/)
 - [ ] [ ](http://oj.leetcode.com/problems/valid-palindrome/)
 
+
 图：
 深搜/广搜：http://oj.leetcode.com/problems/clone-graph/
+
 
 搜索 & 遍历：
 http://oj.leetcode.com/problems/word-ladder/
