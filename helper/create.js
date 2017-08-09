@@ -35,6 +35,6 @@ const createFile = (filepath) => {
     });
 }
 
-let targetStr = '22. Generate Parentheses';
+let targetStr = '39. Combination Sum';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));

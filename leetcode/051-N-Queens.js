@@ -29,20 +29,18 @@ There exist two distinct solutions to the 4-queens puzzle:
 const isValid = (arr, col) => {
     let row = arr.length;
 
-    //console.log('before', arr);
     for (let i = 0; i < row; i++) {
-        //same column
+        // same column
         if (arr[i] == col) {
             return false;
         }
 
-        //console.log(i - arr[i], row - col);
-        //left-top to right-bottom
+        // left-top to right-bottom
         if (i - arr[i] == row - col) {
             return false;
         }
 
-        //right-top to left-bottom
+        // right-top to left-bottom
         if (i + arr[i] == row + col) {
             return false;
         }
@@ -80,7 +78,7 @@ const queenHelper = (result, path, n) => {
         }
         path.push(i);
         queenHelper(result, path, n);
-        path.splice(path.length - 1);
+        path.pop();
     }
 
 }
@@ -92,23 +90,3 @@ var solveNQueens = function (n) {
 };
 
 console.log(solveNQueens(4));
-
-
-/*
-
-[ 1, 3, 0, 2 ]
-[ 2, 0, 3, 1 ]
-
-[
- [".Q..",  // Solution 1
-  "...Q",
-  "Q...",
-  "..Q."],
-
- ["..Q.",  // Solution 2
-  "Q...",
-  "...Q",
-  ".Q.."]
-]
-
-*/
