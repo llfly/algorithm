@@ -35,6 +35,6 @@ const createFile = (filepath) => {
     });
 }
 
-let targetStr = '39. Combination Sum';
+let targetStr = '21. Merge Two Sorted Lists';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));

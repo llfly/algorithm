@@ -12,7 +12,7 @@
 
 ### List
 - [ ] [ ](http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)
-
+- [x] [021. Merge Two Sorted Lists](http://oj.leetcode.com/problems/merge-two-sorted-lists/)
 
 ### Stack & Queue
 - [x] [020. Valid Parentheses](http://oj.leetcode.com/problems/valid-parentheses/)
@@ -133,6 +133,5 @@
 - [ ] [137. Single Number II](http://oj.leetcode.com/problems/single-number-ii/)
 
 ### 矩阵（Matrix）
-
 
 ### 流程控制

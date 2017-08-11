@@ -34,7 +34,7 @@ http://oj.leetcode.com/problems/add-two-numbers/
 
 遍历技巧：
 http://oj.leetcode.com/problems/container-with-most-water/
-[1. Two Sum](http://oj.leetcode.com/problems/two-sum/)
+- [x] [1. Two Sum](http://oj.leetcode.com/problems/two-sum/)
 http://oj.leetcode.com/problems/3sum/
 http://oj.leetcode.com/problems/3sum-closest/
 http://oj.leetcode.com/problems/4sum/
@@ -61,7 +61,7 @@ http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/
 删除细节：http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 http://oj.leetcode.com/problems/partition-list/
 http://oj.leetcode.com/problems/swap-nodes-in-pairs/
-Merge 两个链表：http://oj.leetcode.com/problems/merge-two-sorted-lists/
+
 Merge 多链表：http://oj.leetcode.com/problems/merge-k-sorted-lists/
 细节：http://oj.leetcode.com/problems/reverse-nodes-in-k-group/
 
