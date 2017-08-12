@@ -35,6 +35,6 @@ const createFile = (filepath) => {
     });
 }
 
-let targetStr = '21. Merge Two Sorted Lists';
+let targetStr = '148. Sort List';
 
 createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));
