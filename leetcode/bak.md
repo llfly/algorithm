@@ -50,9 +50,8 @@ http://oj.leetcode.com/problems/sort-colors/
 http://oj.leetcode.com/problems/max-points-on-a-line/
 
 链表：
-归并排序：http://oj.leetcode.com/problems/sort-list/
 插入排序：http://oj.leetcode.com/problems/insertion-sort-list/
-反转、插入：http://oj.leetcode.com/problems/reorder-list/
+
 检测是否有环：http://oj.leetcode.com/problems/linked-list-cycle/
 确定链表环的起点：http://oj.leetcode.com/problems/linked-list-cycle-ii/
 Deep Copy 带有随机指针的链表：http://oj.leetcode.com/problems/copy-list-with-random-pointer/

@@ -13,7 +13,9 @@
 ### List
 - [ ] [ ](http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [x] [021. Merge Two Sorted Lists](http://oj.leetcode.com/problems/merge-two-sorted-lists/)
+- [ ] [143. Reorder List](http://oj.leetcode.com/problems/reorder-list/)
 - [x] [148. Sort List](http://oj.leetcode.com/problems/sort-list/)
+
 
 ### Stack & Queue
 - [x] [020. Valid Parentheses](http://oj.leetcode.com/problems/valid-parentheses/)
