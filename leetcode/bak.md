@@ -51,16 +51,12 @@ http://oj.leetcode.com/problems/max-points-on-a-line/
 
 链表：
 插入排序：http://oj.leetcode.com/problems/insertion-sort-list/
-
 检测是否有环：http://oj.leetcode.com/problems/linked-list-cycle/
 确定链表环的起点：http://oj.leetcode.com/problems/linked-list-cycle-ii/
 Deep Copy 带有随机指针的链表：http://oj.leetcode.com/problems/copy-list-with-random-pointer/
 链表细节：http://oj.leetcode.com/problems/rotate-list/
-http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/
-删除细节：http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 http://oj.leetcode.com/problems/partition-list/
 http://oj.leetcode.com/problems/swap-nodes-in-pairs/
-
 Merge 多链表：http://oj.leetcode.com/problems/merge-k-sorted-lists/
 细节：http://oj.leetcode.com/problems/reverse-nodes-in-k-group/
 

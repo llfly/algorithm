@@ -15,6 +15,8 @@
 - [x] [021. Merge Two Sorted Lists](http://oj.leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [143. Reorder List](http://oj.leetcode.com/problems/reorder-list/)
 - [x] [148. Sort List](http://oj.leetcode.com/problems/sort-list/)
+- [ ] [083. Remove Duplicates from Sorted List](http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [ ] [082. Remove Duplicates from Sorted List II](http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 
 ### Stack & Queue

@@ -53,5 +53,35 @@ console.log(removeNode(list, 1));
 console.log(reverseList(list));
 
 
+
+
 // Sort List
 // Reorder List
+
+
+// Dummy Node
+// Scenario : when the head is not determinated
+// Remove Duplicates from Sorted List I,II
+// Merge Two Sorted Lists
+// Partition List
+// Reverse Linked List II 
+
+
+
+// Two Pointers
+// Linked List Cycle I,II
+// Remove Nth Node From End of List
+// Find the Middle of Linked List
+// ...
+
+// Merge K Sorted Lists  heap k路归并 O(logn)
+// k = 2 O(n)
+// hashMap 实现
+
+
+// Copy List with Random Pointer
+
+
+
+
+// 尾递归
