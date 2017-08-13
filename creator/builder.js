@@ -13,7 +13,7 @@ let crawler = new Crawler({
             let title = Parse.titleParse($(".question-title h3"));
             let description = Parse.descriptionParse($("#descriptionContent .question-description"));
             let CodeMirror = Parse.CodeMirrorParse($(".CodeMirror-code"));
-            console.log(title, description, CodeMirror);
+            // console.log(title, description, CodeMirror);
         }
         done();
     }
