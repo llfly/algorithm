@@ -35,6 +35,5 @@ const createFile = (filepath) => {
     });
 }
 
-let targetStr = '19. Remove Nth Node From End of List';
+module.exports = targetStr => createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));
 
-createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));

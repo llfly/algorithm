@@ -1,10 +1,8 @@
-const URL = 'http://www.amazon.com';
-
-
 let Crawler = require("crawler");
+let Parse = require('./textparsing');
 
 
-let c = new Crawler({
+let crawler = new Crawler({
     maxConnections : 10,
     // This will be called for each crawled page
     callback : function (error, res, done) {
@@ -12,7 +10,10 @@ let c = new Crawler({
             console.log(error);
         }else{
             let $ = res.$;
-            console.log($("title").text());
+            let title = Parse.titleParse($(".question-title h3"));
+            let description = Parse.descriptionParse($("#descriptionContent .question-description"));
+            let CodeMirror = Parse.CodeMirrorParse($(".CodeMirror-code"));
+            console.log(title, description, CodeMirror);
         }
         done();
     }
@@ -20,4 +21,4 @@ let c = new Crawler({
 
 
 
-c.queue(URL);
+module.exports = (URL) => crawler.queue(URL); 
