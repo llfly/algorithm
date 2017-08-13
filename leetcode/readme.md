@@ -11,7 +11,7 @@
 - [x] [088. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
 
 ### List
-- [ ] [ ](http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [x] [019. Remove Nth Node From End of List](http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [x] [021. Merge Two Sorted Lists](http://oj.leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [143. Reorder List](http://oj.leetcode.com/problems/reorder-list/)
 - [x] [148. Sort List](http://oj.leetcode.com/problems/sort-list/)

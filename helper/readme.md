@@ -1,0 +1,1 @@
+### helper for javascript data structure
