@@ -50,8 +50,6 @@ http://oj.leetcode.com/problems/sort-colors/
 http://oj.leetcode.com/problems/max-points-on-a-line/
 
 
-
-
 问题分析/智商/细节：
 http://oj.leetcode.com/problems/candy/
 http://oj.leetcode.com/problems/gas-station/

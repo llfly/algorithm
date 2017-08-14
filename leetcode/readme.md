@@ -11,14 +11,14 @@
 - [x] [088. Merge Sorted Array](http://oj.leetcode.com/problems/merge-sorted-array/)
 
 ### List
-- [ ] [019. Remove Nth Node From End of List](http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [x] [019. Remove Nth Node From End of List](http://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [x] [021. Merge Two Sorted Lists](http://oj.leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [023. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [024. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 - [ ] [025. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 - [ ] [061. Rotate List](https://leetcode.com/problems/rotate-list/)
-- [ ] [082. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
-- [ ] [083. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [x] [083. Remove Duplicates from Sorted List](http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [ ] [082. Remove Duplicates from Sorted List II](http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 - [ ] [086. Partition List](https://leetcode.com/problems/partition-list/)
 - [ ] [092. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 - [ ] [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
@@ -26,8 +26,7 @@
 - [ ] [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 - [ ] [143. Reorder List](https://leetcode.com/problems/reorder-list/)
 - [ ] [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)
-- [ ] [148. Sort List](https://leetcode.com/problems/sort-list/)
-
+- [x] [148. Sort List](http://oj.leetcode.com/problems/sort-list/)
 
 ### Stack & Queue
 - [x] [020. Valid Parentheses](http://oj.leetcode.com/problems/valid-parentheses/)

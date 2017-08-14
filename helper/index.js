@@ -15,6 +15,20 @@ const ListHelper = (arr) => {
 };
 
 
+// LinkList --> Array 
+
+const List2Array = (list) => {
+    let arr = [];
+    
+    while (list) {
+        arr.push(list.val);
+        list = list.next;
+    }
+    
+    return arr;
+}
+
+
 // Array --> tree (inorder)
 function TreeNode(val) {
     this.val = val;
@@ -43,6 +57,9 @@ const TreeHelper = (arr) => {
 module.exports = {
     ListNode,
     ListHelper,
+    List2Array,
+
+    
     TreeNode,
     TreeHelper,
 };
