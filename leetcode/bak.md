@@ -49,23 +49,8 @@ http://oj.leetcode.com/problems/sort-colors/
 暴力方法/细节实现：
 http://oj.leetcode.com/problems/max-points-on-a-line/
 
-链表：
-归并排序：http://oj.leetcode.com/problems/sort-list/
-插入排序：http://oj.leetcode.com/problems/insertion-sort-list/
-反转、插入：http://oj.leetcode.com/problems/reorder-list/
-检测是否有环：http://oj.leetcode.com/problems/linked-list-cycle/
-确定链表环的起点：http://oj.leetcode.com/problems/linked-list-cycle-ii/
-Deep Copy 带有随机指针的链表：http://oj.leetcode.com/problems/copy-list-with-random-pointer/
-链表细节：http://oj.leetcode.com/problems/rotate-list/
-http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/
-删除细节：http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
-http://oj.leetcode.com/problems/partition-list/
-http://oj.leetcode.com/problems/swap-nodes-in-pairs/
 
-Merge 多链表：http://oj.leetcode.com/problems/merge-k-sorted-lists/
-细节：http://oj.leetcode.com/problems/reverse-nodes-in-k-group/
 
-http://oj.leetcode.com/problems/reverse-linked-list-ii/
 
 问题分析/智商/细节：
 http://oj.leetcode.com/problems/candy/
@@ -150,3 +135,20 @@ http://oj.leetcode.com/problems/surrounded-regions/(广搜)
 125  Binary Tree Maximum Path Sum (递归)
 130  Sum Root to Leaf Numbers (递归)
 146  Binary Tree Postorder Traversal (递归或迭代)
+
+
+
+链表：
+归并排序：http://oj.leetcode.com/problems/sort-list/
+插入排序：http://oj.leetcode.com/problems/insertion-sort-list/
+反转、插入：http://oj.leetcode.com/problems/reorder-list/
+检测是否有环：http://oj.leetcode.com/problems/linked-list-cycle/
+确定链表环的起点：http://oj.leetcode.com/problems/linked-list-cycle-ii/
+Deep Copy 带有随机指针的链表：http://oj.leetcode.com/problems/copy-list-with-random-pointer/
+链表细节：http://oj.leetcode.com/problems/rotate-list/
+http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/
+删除细节：http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+http://oj.leetcode.com/problems/partition-list/
+http://oj.leetcode.com/problems/swap-nodes-in-pairs/
+Merge 多链表：http://oj.leetcode.com/problems/merge-k-sorted-lists/
+细节：http://oj.leetcode.com/problems/reverse-nodes-in-k-group/
