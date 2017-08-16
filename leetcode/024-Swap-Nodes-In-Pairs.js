@@ -36,7 +36,7 @@ var swapPairs = function (head) {
 
 
 var swapPairs = function (head) {
-    if (head == null) return null;
+
     let dummy = new ListNode(-1);
     dummy.next = head;
 

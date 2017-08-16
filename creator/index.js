@@ -6,7 +6,7 @@ let Creator = require('./create');
 const URL = 'https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/';
 
 
-Creator('24. Swap Nodes in Pairs');
+Creator('141. Linked List Cycle');
 
 // Builder(URL);
 
