@@ -12,8 +12,8 @@ let crawler = new Crawler({
             let $ = res.$;
             let title = Parse.titleParse($(".question-title h3"));
             let description = Parse.descriptionParse($("#descriptionContent .question-description"));
-            let CodeMirror = Parse.CodeMirrorParse($(".CodeMirror-code"));
-            // console.log(title, description, CodeMirror);
+            let CodeMirror = Parse.CodeMirrorParse($(".ReactCodeMirror .CodeMirror-scroll>.CodeMirror-sizer"));
+            console.log(title, description, CodeMirror);//
         }
         done();
     }
