@@ -6,7 +6,7 @@ let Creator = require('./create');
 const URL = 'https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/';
 
 
-Creator('141. Linked List Cycle');
+Creator('138. Copy List with Random Pointer');
 
 // Builder(URL);
 
