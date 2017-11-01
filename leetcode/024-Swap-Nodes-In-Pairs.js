@@ -8,7 +8,6 @@ Your algorithm should use only constant space. You may not modify the values in 
 
 */
 
-
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {

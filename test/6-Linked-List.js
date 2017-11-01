@@ -47,6 +47,27 @@ const reverseList = (head) => {
 }
 
 
+const findMiddle = (head) => {
+    let slow = head, fast = head;
+
+    while (fast != null && fast.next != null) {
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+
+    return slow;
+}
+
+
+const mergeList = (head1, head2) => {
+    
+}
+
+
+
+
+
+
 let list = ListHelper([1, 2, 3, 4, 5]);
 
 console.log(removeNode(list, 1));
