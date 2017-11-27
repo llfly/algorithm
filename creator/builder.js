@@ -1,24 +1,43 @@
 let Crawler = require("crawler");
+let debug = require('debug')('build')
 let Parse = require('./textparsing');
+let fs = require('fs');
 
 
-let crawler = new Crawler({
-    maxConnections : 10,
-    // This will be called for each crawled page
-    callback : function (error, res, done) {
-        if(error){
-            console.log(error);
-        }else{
-            let $ = res.$;
-            let title = Parse.titleParse($(".question-title h3"));
-            let description = Parse.descriptionParse($("#descriptionContent .question-description"));
-            let CodeMirror = Parse.CodeMirrorParse($(".ReactCodeMirror .CodeMirror-scroll>.CodeMirror-sizer"));
-            console.log(title, description, CodeMirror);//
-        }
-        done();
-    }
-});
+module.exports = URL =>
+    new Promise((resolve, reject) => {
+        let crawler = new Crawler({
+            maxConnections: 10,
+            // This will be called for each crawled page
+            callback: function (error, res, done) {
+                let title = "", description = "", codeMirror = "";
+                if (error) {
+                    console.log(error);
+                    reject({
+                        title,
+                        description,
+                        codeMirror
+                    });
+                    debug("-- get data error --");
+                } else {
+                    let $ = res.$;
+                    debug("-- get data callback --");
 
+                    title = Parse.titleParse($(".question-title h3"));
+                    description = Parse.descriptionParse($("#descriptionContent .question-description"));
+                    codeMirror = Parse.CodeMirrorParse(String(res.body).match(/(?=codeDefinition:).*/)[0]);
 
+                    debug("-- clear data done --");
+                }
+                done();
 
-module.exports = (URL) => crawler.queue(URL); 
+                resolve({
+                    title,
+                    description,
+                    codeMirror
+                });
+            }
+        });
+        
+        crawler.queue(URL);
+    });

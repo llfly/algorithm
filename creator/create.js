@@ -3,14 +3,12 @@ const path = require('path');
 
 const textReg = /\.js$/;
 
-
 const compose = (first, ...last) => (...initArgs) =>
     last.reduce((compose, func) =>
         func(compose), first(...initArgs))
 
-
 //padLeft
-const padLeftZero = (str,pad = '000') => {
+const padLeftZero = (str, pad = '000') => {
     let arr = str.split('.');
     return `${(pad + arr.shift()).slice(-pad.length)}.${arr.join('')}`;
 }
@@ -27,13 +25,16 @@ const postfix = (filename) => !textReg.test(filename) ?
 
 const filePath = (filename) => (basePath) => path.join(__dirname, basePath, filename)
 
+const getText = (description, codeMirror) => `/*${description}*/ ${codeMirror}`;
+
 // createFile
-const createFile = (filepath) => {
-    fs.writeFile(filepath, '/**/', function (err) {
+const createFile = (filepath, text) => {
+    fs.writeFileSync(filepath, text, function (err) {
         if (err) throw err;
         console.log("create File Success!");
     });
 }
 
-module.exports = targetStr => createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'));
+module.exports = (targetStr, description, codeMirror) => 
+    createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'), getText(description, codeMirror));
 

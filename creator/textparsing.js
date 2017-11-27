@@ -1,48 +1,25 @@
-// parsing for leetcode html
-// let $ = require('crawler/vendor/jquery-2.1.1.min.js');
-
-var htmlparser = require("htmlparser2");
-
 const titleParse = (jq) => jq.text().trim();
 
-const descriptionParse = (jq) => {
-    if (!jq) return;
-    let str = '';
-    var parser = new htmlparser.Parser({
-        onopentag: function (name, attribs) {
-           
-        },
-        ontext: function (text) {
-            str += text;
-        },
-        onclosetag: function (tagname) {
+const descriptionParse = jq => jq.text().trim();
+
+const CodeMirrorParse = (data, lang = "javascript")=> {//java
+    let str = "";
+    if (data) {
+        data = data.replace(/,$/, "").replace(/codeDefinition:/, "codeDefinition=");
+        try {
+            eval(data);
+            (codeDefinition || []).some(item => {
+                if (item.value === lang) {
+                    str = item.defaultCode;
+                    return true;
+                }
+            });
+        } catch (e) {
+            console.log(e);
         }
-    }, { decodeEntities: true });
-    parser.write(jq);
-    parser.end();
+    }
     return str;
 }
-
-const CodeMirrorParse = (jq) => {
-    if (!jq) return;
-
-    // let str = '';
-    // var parser = new htmlparser.Parser({
-    //     onopentag: function (name, attribs) {
-    //         // console.log(name);
-    //     },
-    //     ontext: function (text) {
-    //         str += text;
-    //         // console.log(text);
-    //     },
-    //     onclosetag: function (tagname) {
-    //     }
-    // }, { decodeEntities: true });
-    // parser.write(jq);
-    // parser.end();
-    // return str;
-}
-
 
 module.exports = {
     titleParse,
