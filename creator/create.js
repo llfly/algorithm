@@ -25,7 +25,10 @@ const postfix = (filename) => !textReg.test(filename) ?
 
 const filePath = (filename) => (basePath) => path.join(__dirname, basePath, filename)
 
-const getText = (description, codeMirror) => `/*${description}*/ ${codeMirror}`;
+const getText = (description, codeMirror) => `/*
+    ${description}
+*/
+${codeMirror}`;
 
 // createFile
 const createFile = (filepath, text) => {
@@ -35,6 +38,6 @@ const createFile = (filepath, text) => {
     });
 }
 
-module.exports = (targetStr, description, codeMirror) => 
-    createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)('../leetcode'), getText(description, codeMirror));
+module.exports = (targetStr, description, codeMirror, prefix = "javascript") =>
+    createFile(compose(padLeftZero, camelCase, postfix, filePath)(targetStr)(`../${prefix}`), getText(description, codeMirror));
 

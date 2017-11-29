@@ -4,7 +4,7 @@ let Parse = require('./textparsing');
 let fs = require('fs');
 
 
-module.exports = URL =>
+module.exports = (URL, lang = "javascript") =>
     new Promise((resolve, reject) => {
         let crawler = new Crawler({
             maxConnections: 10,
@@ -25,7 +25,7 @@ module.exports = URL =>
 
                     title = Parse.titleParse($(".question-title h3"));
                     description = Parse.descriptionParse($("#descriptionContent .question-description"));
-                    codeMirror = Parse.CodeMirrorParse(String(res.body).match(/(?=codeDefinition:).*/)[0]);
+                    codeMirror = Parse.CodeMirrorParse(String(res.body).match(/(?=codeDefinition:).*/)[0], lang);
 
                     debug("-- clear data done --");
                 }
@@ -38,6 +38,6 @@ module.exports = URL =>
                 });
             }
         });
-        
+
         crawler.queue(URL);
     });
