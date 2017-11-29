@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "DEBUG=build node index.js"
+    "build": "DEBUG=build node index.js",
+    "list": "DEBUG=getList node getList"
   },
   "keywords": [],
   "author": "",
