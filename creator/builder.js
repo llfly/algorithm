@@ -25,8 +25,12 @@ module.exports = (URL, lang = "javascript") =>
 
                     title = Parse.titleParse($(".question-title h3"));
                     description = Parse.descriptionParse($("#descriptionContent .question-description"));
-                    codeMirror = Parse.CodeMirrorParse(String(res.body).match(/(?=codeDefinition:).*/)[0], lang);
-
+                    try{
+                        codeMirror = Parse.CodeMirrorParse(String(res.body).match(/(?=codeDefinition:).*/)[0], lang);
+                    } catch(e){
+                        fs.appendFileSync('./error.log', `${URL} get data error\n`);
+                    }
+                    
                     debug("-- clear data done --");
                 }
                 done();
